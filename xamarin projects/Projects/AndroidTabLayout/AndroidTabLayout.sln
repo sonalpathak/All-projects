@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidTabLayout", "AndroidTabLayout\AndroidTabLayout.csproj", "{0B2F51C8-B160-4FE9-9FB5-C01902196AFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "New Folder", "New Folder", "{2BD4AB38-B060-46A0-94C5-A41A384E08A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B2F51C8-B160-4FE9-9FB5-C01902196AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B2F51C8-B160-4FE9-9FB5-C01902196AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B2F51C8-B160-4FE9-9FB5-C01902196AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B2F51C8-B160-4FE9-9FB5-C01902196AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = AndroidTabLayout\AndroidTabLayout.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+C:\Users\sonal.pathak\Documents\Projects\xyz\xyz\bin\Debug\xyz.dll
+C:\Users\sonal.pathak\Documents\Projects\xyz\xyz\bin\Debug\xyz.pdb
+C:\Users\sonal.pathak\Documents\Projects\xyz\xyz\bin\Debug\xyz.dll.mdb
+C:\Users\sonal.pathak\Documents\Projects\xyz\xyz\bin\Debug\xyz.xyz.apk
+C:\Users\sonal.pathak\Documents\Projects\xyz\xyz\bin\Debug\xyz.xyz-Signed.apk
+C:\Users\sonal.pathak\Documents\Projects\xyz\xyz\obj\Debug\xyz.dll
+C:\Users\sonal.pathak\Documents\Projects\xyz\xyz\obj\Debug\xyz.pdb
+C:\Users\sonal.pathak\Documents\Projects\xyz\xyz\obj\Debug\android\bin\xyz.xyz.apk
+C:\Users\sonal.pathak\Documents\Projects\xyz\xyz\obj\Debug\res\layout\main.xml
+C:\Users\sonal.pathak\Documents\Projects\xyz\xyz\obj\Debug\res\values\strings.xml
+C:\Users\sonal.pathak\Documents\Projects\xyz\xyz\obj\Debug\res\drawable\icon.png
+C:\Users\sonal.pathak\Documents\Projects\xyz\xyz\obj\Debug\R.cs.flag
+C:\Users\sonal.pathak\Documents\Projects\xyz\xyz\obj\Debug\uploadflags.txt

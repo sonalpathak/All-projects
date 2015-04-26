@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Desktop\New folder (4)\ReadContacts (2)\ReadContacts\ReadContacts\Activity1.cs">
+    <Files>
+      <File FileName="layout\MainActivity.cs" Line="22" Column="21" />
+      <File FileName="layout\Resources\values\Strings.xml" Line="1" Column="1" />
+      <File FileName="layout\Properties\AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="..\..\..\Desktop\Sonal\GetLocation\GetLocation\Activity1.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\Desktop\New folder (4)\ReadContacts (2)\ReadContacts\ReadContacts\Activity1.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.layout MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="1006721DD8BE02BA40884E4FEFEEBC6" />
+</Properties>

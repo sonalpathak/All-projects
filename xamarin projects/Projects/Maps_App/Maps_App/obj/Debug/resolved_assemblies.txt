@@ -1,0 +1,2 @@
+C:\Users\sonal.pathak\Documents\Projects\Maps_App\Maps_App\bin\Debug\Maps_App.dll
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v4.2\Mono.Android.GoogleMaps.dll

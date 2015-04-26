@@ -1,0 +1,13 @@
+C:\Users\sonal.pathak\Documents\Projects\xml_file_example\xml_file_example\bin\Debug\xml_file_example.dll
+C:\Users\sonal.pathak\Documents\Projects\xml_file_example\xml_file_example\bin\Debug\xml_file_example.pdb
+C:\Users\sonal.pathak\Documents\Projects\xml_file_example\xml_file_example\bin\Debug\xml_file_example.dll.mdb
+C:\Users\sonal.pathak\Documents\Projects\xml_file_example\xml_file_example\bin\Debug\xml_file_example.xml_file_example.apk
+C:\Users\sonal.pathak\Documents\Projects\xml_file_example\xml_file_example\bin\Debug\xml_file_example.xml_file_example-Signed.apk
+C:\Users\sonal.pathak\Documents\Projects\xml_file_example\xml_file_example\obj\Debug\xml_file_example.dll
+C:\Users\sonal.pathak\Documents\Projects\xml_file_example\xml_file_example\obj\Debug\xml_file_example.pdb
+C:\Users\sonal.pathak\Documents\Projects\xml_file_example\xml_file_example\obj\Debug\android\bin\xml_file_example.xml_file_example.apk
+C:\Users\sonal.pathak\Documents\Projects\xml_file_example\xml_file_example\obj\Debug\res\layout\main.xml
+C:\Users\sonal.pathak\Documents\Projects\xml_file_example\xml_file_example\obj\Debug\res\values\strings.xml
+C:\Users\sonal.pathak\Documents\Projects\xml_file_example\xml_file_example\obj\Debug\res\drawable\icon.png
+C:\Users\sonal.pathak\Documents\Projects\xml_file_example\xml_file_example\obj\Debug\R.cs.flag
+C:\Users\sonal.pathak\Documents\Projects\xml_file_example\xml_file_example\obj\Debug\uploadflags.txt

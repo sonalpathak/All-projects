@@ -1,0 +1,13 @@
+C:\Users\sonal.pathak\Documents\Projects\layout\layout\bin\Debug\layout.dll
+C:\Users\sonal.pathak\Documents\Projects\layout\layout\bin\Debug\layout.pdb
+C:\Users\sonal.pathak\Documents\Projects\layout\layout\bin\Debug\layout.dll.mdb
+C:\Users\sonal.pathak\Documents\Projects\layout\layout\bin\Debug\layout.layout.apk
+C:\Users\sonal.pathak\Documents\Projects\layout\layout\bin\Debug\layout.layout-Signed.apk
+C:\Users\sonal.pathak\Documents\Projects\layout\layout\obj\Debug\layout.dll
+C:\Users\sonal.pathak\Documents\Projects\layout\layout\obj\Debug\layout.pdb
+C:\Users\sonal.pathak\Documents\Projects\layout\layout\obj\Debug\android\bin\layout.layout.apk
+C:\Users\sonal.pathak\Documents\Projects\layout\layout\obj\Debug\res\layout\main.xml
+C:\Users\sonal.pathak\Documents\Projects\layout\layout\obj\Debug\res\values\strings.xml
+C:\Users\sonal.pathak\Documents\Projects\layout\layout\obj\Debug\res\drawable\icon.png
+C:\Users\sonal.pathak\Documents\Projects\layout\layout\obj\Debug\R.cs.flag
+C:\Users\sonal.pathak\Documents\Projects\layout\layout\obj\Debug\uploadflags.txt

@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="xml_file_example\ImageAdapter.cs">
+    <Files>
+      <File FileName="xml_file_example\MainActivity.cs" Line="1" Column="1" />
+      <File FileName="xml_file_example\Properties\AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="xml_file_example\ImageAdapter.cs" Line="15" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.xml__file__example MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+</Properties>

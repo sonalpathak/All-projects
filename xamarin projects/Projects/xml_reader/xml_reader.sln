@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xml_reader", "xml_reader\xml_reader.csproj", "{4FEC6E26-3BE7-42CC-BD9F-343921293D5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FEC6E26-3BE7-42CC-BD9F-343921293D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FEC6E26-3BE7-42CC-BD9F-343921293D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FEC6E26-3BE7-42CC-BD9F-343921293D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FEC6E26-3BE7-42CC-BD9F-343921293D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = xml_reader\xml_reader.csproj
+	EndGlobalSection
+EndGlobal

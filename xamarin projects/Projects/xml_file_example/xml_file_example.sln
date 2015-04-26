@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xml_file_example", "xml_file_example\xml_file_example.csproj", "{B0DC4500-88A6-4414-A4D9-8EE2251DF14D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0DC4500-88A6-4414-A4D9-8EE2251DF14D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DC4500-88A6-4414-A4D9-8EE2251DF14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DC4500-88A6-4414-A4D9-8EE2251DF14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DC4500-88A6-4414-A4D9-8EE2251DF14D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = xml_file_example\xml_file_example.csproj
+	EndGlobalSection
+EndGlobal

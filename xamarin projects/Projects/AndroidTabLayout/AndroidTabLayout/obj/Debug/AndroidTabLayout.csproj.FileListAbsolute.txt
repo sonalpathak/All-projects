@@ -1,0 +1,15 @@
+C:\Users\sonal.pathak\Documents\Projects\AndroidTabLayout\AndroidTabLayout\bin\Debug\AndroidTabLayout.dll
+C:\Users\sonal.pathak\Documents\Projects\AndroidTabLayout\AndroidTabLayout\bin\Debug\AndroidTabLayout.pdb
+C:\Users\sonal.pathak\Documents\Projects\AndroidTabLayout\AndroidTabLayout\bin\Debug\AndroidTabLayout.dll.mdb
+C:\Users\sonal.pathak\Documents\Projects\AndroidTabLayout\AndroidTabLayout\bin\Debug\AndroidTabLayout.AndroidTabLayout.apk
+C:\Users\sonal.pathak\Documents\Projects\AndroidTabLayout\AndroidTabLayout\bin\Debug\AndroidTabLayout.AndroidTabLayout-Signed.apk
+C:\Users\sonal.pathak\Documents\Projects\AndroidTabLayout\AndroidTabLayout\obj\Debug\AndroidTabLayout.dll
+C:\Users\sonal.pathak\Documents\Projects\AndroidTabLayout\AndroidTabLayout\obj\Debug\AndroidTabLayout.pdb
+C:\Users\sonal.pathak\Documents\Projects\AndroidTabLayout\AndroidTabLayout\obj\Debug\android\bin\AndroidTabLayout.AndroidTabLayout.apk
+C:\Users\sonal.pathak\Documents\Projects\AndroidTabLayout\AndroidTabLayout\obj\Debug\res\layout\main.xml
+C:\Users\sonal.pathak\Documents\Projects\AndroidTabLayout\AndroidTabLayout\obj\Debug\res\values\strings.xml
+C:\Users\sonal.pathak\Documents\Projects\AndroidTabLayout\AndroidTabLayout\obj\Debug\res\drawable\icon.png
+C:\Users\sonal.pathak\Documents\Projects\AndroidTabLayout\AndroidTabLayout\obj\Debug\res\layout\contactview.xml
+C:\Users\sonal.pathak\Documents\Projects\AndroidTabLayout\AndroidTabLayout\obj\Debug\res\layout\mail_file.xml
+C:\Users\sonal.pathak\Documents\Projects\AndroidTabLayout\AndroidTabLayout\obj\Debug\R.cs.flag
+C:\Users\sonal.pathak\Documents\Projects\AndroidTabLayout\AndroidTabLayout\obj\Debug\uploadflags.txt

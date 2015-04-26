@@ -1,0 +1,13 @@
+C:\Users\sonal.pathak\Documents\Projects\face_detection\face_detection\bin\Release\face_detection.dll
+C:\Users\sonal.pathak\Documents\Projects\face_detection\face_detection\bin\Release\face_detection.pdb
+C:\Users\sonal.pathak\Documents\Projects\face_detection\face_detection\bin\Release\face_detection.Cam_App.apk
+C:\Users\sonal.pathak\Documents\Projects\face_detection\face_detection\bin\Release\face_detection.Cam_App-Signed.apk
+C:\Users\sonal.pathak\Documents\Projects\face_detection\face_detection\obj\Release\face_detection.dll
+C:\Users\sonal.pathak\Documents\Projects\face_detection\face_detection\obj\Release\face_detection.pdb
+C:\Users\sonal.pathak\Documents\Projects\face_detection\face_detection\obj\Release\android\bin\face_detection.Cam_App.apk
+C:\Users\sonal.pathak\Documents\Projects\face_detection\face_detection\obj\Release\res\layout\main.xml
+C:\Users\sonal.pathak\Documents\Projects\face_detection\face_detection\obj\Release\res\values\strings.xml
+C:\Users\sonal.pathak\Documents\Projects\face_detection\face_detection\obj\Release\res\drawable\icon.png
+C:\Users\sonal.pathak\Documents\Projects\face_detection\face_detection\obj\Release\res\layout\detectlayout.xml
+C:\Users\sonal.pathak\Documents\Projects\face_detection\face_detection\obj\Release\R.cs.flag
+C:\Users\sonal.pathak\Documents\Projects\face_detection\face_detection\obj\Release\uploadflags.txt

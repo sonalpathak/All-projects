@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ASL\MainActivity.cs">
+    <Files>
+      <File FileName="ASL\MainActivity.cs" Line="27" Column="61" />
+      <File FileName="ASL\Properties\AndroidManifest.xml" Line="6" Column="12" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\MainActivity.cs" line="27" column="67" />
+      <Breakpoint file="C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\MainActivity.cs" line="20" column="1" />
+      <Breakpoint file="C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\MainActivity.cs" line="67" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ASL MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="emulator-5554" AndroidDeviceId-Release="emulator-5554" />
+</Properties>

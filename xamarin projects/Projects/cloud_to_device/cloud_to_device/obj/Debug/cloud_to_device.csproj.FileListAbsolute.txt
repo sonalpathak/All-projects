@@ -1,0 +1,13 @@
+C:\Users\sonal.pathak\Documents\Projects\cloud_to_device\cloud_to_device\bin\Debug\cloud_to_device.dll
+C:\Users\sonal.pathak\Documents\Projects\cloud_to_device\cloud_to_device\bin\Debug\cloud_to_device.pdb
+C:\Users\sonal.pathak\Documents\Projects\cloud_to_device\cloud_to_device\bin\Debug\cloud_to_device.dll.mdb
+C:\Users\sonal.pathak\Documents\Projects\cloud_to_device\cloud_to_device\bin\Debug\cloud_to_device.cloud_to_device.apk
+C:\Users\sonal.pathak\Documents\Projects\cloud_to_device\cloud_to_device\bin\Debug\cloud_to_device.cloud_to_device-Signed.apk
+C:\Users\sonal.pathak\Documents\Projects\cloud_to_device\cloud_to_device\obj\Debug\cloud_to_device.dll
+C:\Users\sonal.pathak\Documents\Projects\cloud_to_device\cloud_to_device\obj\Debug\cloud_to_device.pdb
+C:\Users\sonal.pathak\Documents\Projects\cloud_to_device\cloud_to_device\obj\Debug\android\bin\cloud_to_device.cloud_to_device.apk
+C:\Users\sonal.pathak\Documents\Projects\cloud_to_device\cloud_to_device\obj\Debug\res\layout\main.xml
+C:\Users\sonal.pathak\Documents\Projects\cloud_to_device\cloud_to_device\obj\Debug\res\values\strings.xml
+C:\Users\sonal.pathak\Documents\Projects\cloud_to_device\cloud_to_device\obj\Debug\res\drawable\icon.png
+C:\Users\sonal.pathak\Documents\Projects\cloud_to_device\cloud_to_device\obj\Debug\R.cs.flag
+C:\Users\sonal.pathak\Documents\Projects\cloud_to_device\cloud_to_device\obj\Debug\uploadflags.txt

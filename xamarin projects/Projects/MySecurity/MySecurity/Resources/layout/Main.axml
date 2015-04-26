@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <MediaController
+        android:minWidth="5px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/mediaController1" />
+    <TableLayout
+        android:id="@+id/TableGPS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:background="#000000">
+        <RelativeLayout
+            android:minWidth="5px"
+            android:minHeight="5px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/relativeLayout1" />
+        <TableRow
+            android:background="#333333"
+            android:layout_margin="1dip"
+            android:minWidth="5px"
+            android:minHeight="25px"
+            android:id="@+id/tableRow10">
+            <Button
+                android:text=" Police"
+                android:layout_width="112.0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button1"
+                android:drawableLeft="@drawable/call" />
+            <Button
+                android:text="Alarm"
+                android:layout_width="103.8dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:drawableLeft="@drawable/bell" />
+            <Button
+                android:text="SOS"
+                android:layout_width="103.8dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button3"
+                android:drawableRight="@drawable/msg4" />
+        </TableRow>
+        <TableRow
+            android:background="#333333"
+            android:layout_margin="1dip"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/tableRow10">
+            <Button
+                android:text="Contacts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/contact" />
+            <TextView
+                android:id="@+id/txtDateTimeAndProvider"
+                android:text="Here's your current location"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:padding="2dip"
+                android:layout_span="2"
+                android:layout_width="155.9dp" />
+        </TableRow>
+        <TableRow
+            android:background="#333333"
+            android:layout_margin="1dip"
+            android:id="@+id/tableRow11">
+            <TextView
+                android:textStyle="bold"
+                android:text="@string/txt_latitude"
+                android:padding="3dip"
+                android:textSize="17sp"
+                android:id="@+id/textView3" />
+            <TextView
+                android:id="@+id/txtLatitude"
+                android:gravity="left"
+                android:padding="3dip"
+                android:textColor="#e8a317"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="83.2dp"
+                android:layout_marginLeft="0.0dp"
+                android:layout_marginRight="0.0dp" />
+        </TableRow>
+        <TableRow
+            android:background="#333333"
+            android:layout_margin="1dip"
+            android:id="@+id/tableRow12">
+            <TextView
+                android:textStyle="bold"
+                android:text="@string/txt_longitude"
+                android:padding="3dip"
+                android:textSize="17sp"
+                android:id="@+id/textView4" />
+            <TextView
+                android:id="@+id/txtLongitude"
+                android:gravity="left"
+                android:padding="2dip"
+                android:textColor="#e8a317"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="83.1dp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

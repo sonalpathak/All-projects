@@ -1,0 +1,14 @@
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\schoolistic_v1\bin\Debug\schoolistic_v1.dll
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\schoolistic_v1\bin\Debug\schoolistic_v1.pdb
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\schoolistic_v1\bin\Debug\schoolistic_v1.dll.mdb
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\schoolistic_v1\bin\Debug\schoolistic_v1.schoolistic_v1.apk
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\schoolistic_v1\bin\Debug\schoolistic_v1.schoolistic_v1-Signed.apk
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\schoolistic_v1\bin\Debug\GooglePlayServicesLib.dll
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\schoolistic_v1\obj\Debug\schoolistic_v1.dll
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\schoolistic_v1\obj\Debug\schoolistic_v1.pdb
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\schoolistic_v1\obj\Debug\android\bin\schoolistic_v1.schoolistic_v1.apk
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\schoolistic_v1\obj\Debug\res\layout\main.xml
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\schoolistic_v1\obj\Debug\res\values\strings.xml
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\schoolistic_v1\obj\Debug\res\drawable\icon.png
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\schoolistic_v1\obj\Debug\R.cs.flag
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\schoolistic_v1\obj\Debug\uploadflags.txt

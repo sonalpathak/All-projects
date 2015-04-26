@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoWebServices", "MonoWebServices\MonoWebServices.csproj", "{77DF6871-B88B-418B-8C0B-A0806B2C60FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77DF6871-B88B-418B-8C0B-A0806B2C60FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DF6871-B88B-418B-8C0B-A0806B2C60FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DF6871-B88B-418B-8C0B-A0806B2C60FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DF6871-B88B-418B-8C0B-A0806B2C60FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = MonoWebServices\MonoWebServices.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+BackGroundService.MainActivity;backgroundservice.MainActivity
+BackGroundService.ReceiverService;backgroundservice.ReceiverService
+BackGroundService.service1;backgroundservice.service1

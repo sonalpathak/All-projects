@@ -1,0 +1,2 @@
+C:\Users\sonal.pathak\Documents\Projects\MySecurity\MySecurity\bin\Debug\MySecurity.dll
+C:\Users\sonal.pathak\Documents\Projects\MySecurity\Components\xamarin.mobile-0.7.1\lib\android\Xamarin.Mobile.dll

@@ -1,0 +1,2 @@
+C:\Users\sonal.pathak\Documents\Projects\Map_View\Map_View\bin\Debug\Map_View.dll
+C:\Users\sonal.pathak\Documents\Projects\Map_View\Components\googleplayservices-13.0\lib\android\GooglePlayServicesLib.dll

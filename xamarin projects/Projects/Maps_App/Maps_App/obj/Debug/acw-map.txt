@@ -1,0 +1,2 @@
+Maps_App.MainActivity;maps_app.MainActivity
+Android.GoogleMaps.ItemizedOverlay.IOnFocusChangeListenerImplementor;mono.com.google.android.maps.ItemizedOverlay_OnFocusChangeListenerImplementor

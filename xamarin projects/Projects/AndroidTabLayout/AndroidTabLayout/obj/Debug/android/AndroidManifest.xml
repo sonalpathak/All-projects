@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="AndroidTabLayout.AndroidTabLayout">
+  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="16" />
+  <application android:label="AndroidTabLayout" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:name="contacts"></activity>
+    <activity android:name="All_mail"></activity>
+    <activity android:label="AndroidTabLayout" android:name="androidtablayout.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="contacts" android:name="androidtablayout.contacts" />
+    <activity android:label="social_networking" android:name="androidtablayout.number" />
+    <activity android:label="contacts" android:name="androidtablayout.All_mail" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="AndroidTabLayout.AndroidTabLayout.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.AndroidTabLayout.AndroidTabLayout" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <uses-permission android:name="android.permission.READ_CONTACTS" />
+  <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

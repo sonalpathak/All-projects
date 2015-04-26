@@ -1,0 +1,2 @@
+ApplicationStartOnBoot.MainActivity;applicationstartonboot.MainActivity
+ApplicationStartOnBoot.ReceiveBoot;applicationstartonboot.ReceiveBoot

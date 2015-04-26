@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AndroidTabLayout\contacts.cs">
+    <Files>
+      <File FileName="AndroidTabLayout\MainActivity.cs" Line="34" Column="37" />
+      <File FileName="AndroidTabLayout\Properties\AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="AndroidTabLayout\Properties\AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="AndroidTabLayout\contacts.cs" Line="90" Column="4" />
+      <File FileName="AndroidTabLayout\social_networking.cs" Line="26" Column="32" />
+      <File FileName="AndroidTabLayout\All_mail.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AndroidTabLayout MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="emulator-5554" />
+</Properties>

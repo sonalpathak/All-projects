@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="10" android:versionName="1.0" package="auto_complete.auto_complete">
+	<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="10" />
+	<application android:label="auto_complete"></application>
+</manifest>

@@ -1,0 +1,7 @@
+MySecurity.MainActivity;mysecurity.MainActivity
+MySecurity.alarm;mysecurity.alarm
+MySecurity.AddContacts;mysecurity.AddContacts
+Xamarin.AsyncQuery`1;xamarin.AsyncQuery_1
+Xamarin.Geolocation.GeolocationContinuousListener;xamarin.geolocation.GeolocationContinuousListener
+Xamarin.Geolocation.GeolocationSingleListener;xamarin.geolocation.GeolocationSingleListener
+Xamarin.Media.MediaPickerActivity;xamarin.media.MediaPickerActivity

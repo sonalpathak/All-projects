@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DatabaseApp\MyDatabase.cs">
+    <Files>
+      <File FileName="DatabaseApp\MyDatabase.cs" Line="131" Column="35" />
+      <File FileName="DatabaseApp\MainActivity.cs" Line="84" Column="8" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\sonal.pathak\Documents\Projects\DatabaseApp\DatabaseApp\MyDatabase.cs" line="154" column="1" />
+      <Breakpoint file="C:\Users\sonal.pathak\Documents\Projects\DatabaseApp\DatabaseApp\MainActivity.cs" line="33" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DatabaseApp MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+</Properties>

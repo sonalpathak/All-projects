@@ -1,0 +1,13 @@
+C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\bin\Debug\ASL.dll
+C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\bin\Debug\ASL.pdb
+C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\bin\Debug\ASL.dll.mdb
+C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\bin\Debug\ASL.ASL.apk
+C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\bin\Debug\ASL.ASL-Signed.apk
+C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\obj\Debug\ASL.dll
+C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\obj\Debug\ASL.pdb
+C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\obj\Debug\android\bin\ASL.ASL.apk
+C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\obj\Debug\res\layout\main.xml
+C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\obj\Debug\res\values\strings.xml
+C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\obj\Debug\res\drawable\icon.png
+C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\obj\Debug\R.cs.flag
+C:\Users\sonal.pathak\Documents\Projects\ASL\ASL\obj\Debug\uploadflags.txt

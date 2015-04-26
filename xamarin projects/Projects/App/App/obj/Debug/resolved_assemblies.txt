@@ -1,0 +1,2 @@
+C:\Users\sonal.pathak\Documents\Projects\App\App\bin\Debug\App.dll
+C:\Users\sonal.pathak\Documents\Projects\App\Components\xamarin.mobile-0.7.1\lib\android\Xamarin.Mobile.dll

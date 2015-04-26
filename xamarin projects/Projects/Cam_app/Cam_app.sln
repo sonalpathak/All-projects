@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cam_app", "Cam_app\Cam_app.csproj", "{9A8D7DFA-1538-496F-82A3-B255BBF42E3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A8D7DFA-1538-496F-82A3-B255BBF42E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8D7DFA-1538-496F-82A3-B255BBF42E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8D7DFA-1538-496F-82A3-B255BBF42E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8D7DFA-1538-496F-82A3-B255BBF42E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Cam_app\Cam_app.csproj
+	EndGlobalSection
+EndGlobal

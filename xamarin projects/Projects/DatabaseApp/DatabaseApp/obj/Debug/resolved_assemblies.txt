@@ -1,0 +1,2 @@
+C:\Users\sonal.pathak\Documents\Projects\DatabaseApp\DatabaseApp\bin\Debug\DatabaseApp.dll
+C:\Users\sonal.pathak\Documents\Projects\DatabaseApp\Components\sqlite-net-1.0.1\lib\android\SQLite.dll

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:background="@drawable/bgh">
+            <TextView
+                android:text="Name"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="115px"
+                android:layout_height="20px"
+                android:id="@+id/tvName" />
+            <TextView
+                android:text="Age"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="70px"
+                android:layout_height="20px"
+                android:id="@+id/tvAge" />
+            <TextView
+                android:text="Country"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="115px"
+                android:layout_height="20px"
+                android:id="@+id/tvCountry" />
+        </TableRow>
+        <TableRow
+            android:background="@android:drawable/bottom_bar"
+            android:id="@+id/tableRow2"
+            android:layout_height="40dp">
+            <EditText
+                android:inputType="textPersonName"
+                android:layout_width="115px"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName"
+                android:layout_gravity="center_vertical" />
+            <EditText
+                android:inputType="number"
+                android:layout_width="75px"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAge"
+                android:layout_gravity="center_vertical" />
+            <EditText
+                android:layout_width="115px"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCountry"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+        <TableRow
+            android:background="@drawable/errorbg"
+            android:id="@+id/tableRow3">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvMsg" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="35px"
+        android:paddingLeft="10dp"
+        android:id="@+id/llButtons"
+        android:background="@android:drawable/bottom_bar">
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="75px"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:id="@+id/imgAdd" />
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="75px"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:id="@+id/imgEdit" />
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="75px"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:id="@+id/imgDelete" />
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="75px"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:id="@+id/imgFind" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:id="@+id/llHeader"
+        android:background="@drawable/bgh">
+        <TextView
+            android:text="ID"
+            android:layout_width="50px"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvIdShowR"
+            android:textColor="@android:color/white" />
+        <TextView
+            android:text="Name"
+            android:layout_width="125px"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:id="@+id/tvPersonShowR" />
+        <TextView
+            android:text="Age"
+            android:layout_width="50px"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:id="@+id/tvAgeShowR" />
+        <TextView
+            android:text="Country"
+            android:layout_width="125px"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:id="@+id/tvCountryShowR" />
+    </LinearLayout>
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:id="@+id/lvTemp" />
+</LinearLayout>

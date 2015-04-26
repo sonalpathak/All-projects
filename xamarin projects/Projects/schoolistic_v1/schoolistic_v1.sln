@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schoolistic_v1", "schoolistic_v1\schoolistic_v1.csproj", "{11476998-5132-4A03-8DA0-B387D549396D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11476998-5132-4A03-8DA0-B387D549396D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11476998-5132-4A03-8DA0-B387D549396D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11476998-5132-4A03-8DA0-B387D549396D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11476998-5132-4A03-8DA0-B387D549396D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = schoolistic_v1\schoolistic_v1.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+ASL.MainActivity;asl.MainActivity
+ASL.ReceiverClass;asl.ReceiverClass
+ASL.ServiceClass;asl.ServiceClass

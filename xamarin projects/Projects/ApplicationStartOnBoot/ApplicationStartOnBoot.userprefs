@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApplicationStartOnBoot\Properties\AndroidManifest.xml">
+    <Files>
+      <File FileName="ApplicationStartOnBoot\MainActivity.cs" Line="30" Column="45" />
+      <File FileName="ApplicationStartOnBoot\ReceiveBoot.cs" Line="38" Column="2" />
+      <File FileName="ApplicationStartOnBoot\Properties\AndroidManifest.xml" Line="8" Column="12" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\sonal.pathak\Documents\Projects\ApplicationStartOnBoot\ApplicationStartOnBoot\ReceiveBoot.cs" line="33" column="1" />
+      <Breakpoint file="C:\Users\sonal.pathak\Documents\Projects\ApplicationStartOnBoot\ApplicationStartOnBoot\ReceiveBoot.cs" line="21" column="1" />
+      <Breakpoint file="C:\Users\sonal.pathak\Documents\Projects\ApplicationStartOnBoot\ApplicationStartOnBoot\MainActivity.cs" line="19" column="1" />
+      <Breakpoint file="C:\Users\sonal.pathak\Documents\Projects\ApplicationStartOnBoot\ApplicationStartOnBoot\ReceiveBoot.cs" line="17" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ApplicationStartOnBoot AndroidDeviceId-Debug="emulator-5554" />
+</Properties>

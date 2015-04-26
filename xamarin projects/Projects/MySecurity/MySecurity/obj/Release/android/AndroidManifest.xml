@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="MySecurity.MySecurity">
+  <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="16" />
+  <application android:label="MySecurity" android:icon="@drawable/alert" android:name="mono.android.app.Application">
+    <activity android:label="MySecurity" android:name="mysecurity.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="alarm" android:name="mysecurity.alarm" />
+    <activity android:label="AddContact" android:name="mysecurity.AddContacts" />
+    <activity android:name="xamarin.media.MediaPickerActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="MySecurity.MySecurity.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.CALL_PHONE" />
+  <uses-permission android:name="android.permission.SEND_SMS" />
+  <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+  <uses-permission android:name="android.permission.READ_CONTACTS" />
+</manifest>

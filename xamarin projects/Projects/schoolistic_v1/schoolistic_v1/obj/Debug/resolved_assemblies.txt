@@ -1,0 +1,2 @@
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\schoolistic_v1\bin\Debug\schoolistic_v1.dll
+C:\Users\sonal.pathak\Documents\Projects\schoolistic_v1\Components\googleplayservices-13.0\lib\android\GooglePlayServicesLib.dll

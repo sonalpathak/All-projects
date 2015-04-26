@@ -1,0 +1,34 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MySecurity\AddContacts.cs">
+    <Files>
+      <File FileName="MySecurity\MainActivity.cs" Line="78" Column="38" />
+      <File FileName="MySecurity\alarm.cs" Line="39" Column="3" />
+      <File FileName="MySecurity\AddContacts.cs" Line="120" Column="48" />
+      <File FileName="MySecurity\Resources\values\Strings.xml" Line="9" Column="5" />
+      <File FileName="MySecurity\Properties\AndroidManifest.xml" Line="12" Column="12" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="MySecurity" expanded="True">
+            <Node name="ComponentReferenceFolder" expanded="True" />
+            <Node name="Properties" expanded="True" />
+            <Node name="Resources" expanded="True">
+              <Node name="values" expanded="True" />
+            </Node>
+            <Node name="AddContacts.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="..\App\App\MainActivity.cs" line="212" offsetX="826" offsetY="3587" expression="acceptableLocationProviders.Count" liveUpdate="False" />
+    <Watch file="..\App\App\MainActivity.cs" line="227" offsetX="637" offsetY="3842" expression="_locationManager.AllProviders.Count" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.MySecurity MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Release="emulator-5554" />
+</Properties>

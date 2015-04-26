@@ -1,0 +1,13 @@
+C:\Users\sonal.pathak\Documents\Projects\auto_complete\auto_complete\bin\Debug\auto_complete.dll
+C:\Users\sonal.pathak\Documents\Projects\auto_complete\auto_complete\bin\Debug\auto_complete.pdb
+C:\Users\sonal.pathak\Documents\Projects\auto_complete\auto_complete\bin\Debug\auto_complete.dll.mdb
+C:\Users\sonal.pathak\Documents\Projects\auto_complete\auto_complete\bin\Debug\auto_complete.auto_complete.apk
+C:\Users\sonal.pathak\Documents\Projects\auto_complete\auto_complete\bin\Debug\auto_complete.auto_complete-Signed.apk
+C:\Users\sonal.pathak\Documents\Projects\auto_complete\auto_complete\obj\Debug\auto_complete.dll
+C:\Users\sonal.pathak\Documents\Projects\auto_complete\auto_complete\obj\Debug\auto_complete.pdb
+C:\Users\sonal.pathak\Documents\Projects\auto_complete\auto_complete\obj\Debug\android\bin\auto_complete.auto_complete.apk
+C:\Users\sonal.pathak\Documents\Projects\auto_complete\auto_complete\obj\Debug\res\layout\main.xml
+C:\Users\sonal.pathak\Documents\Projects\auto_complete\auto_complete\obj\Debug\res\values\strings.xml
+C:\Users\sonal.pathak\Documents\Projects\auto_complete\auto_complete\obj\Debug\res\drawable\icon.png
+C:\Users\sonal.pathak\Documents\Projects\auto_complete\auto_complete\obj\Debug\R.cs.flag
+C:\Users\sonal.pathak\Documents\Projects\auto_complete\auto_complete\obj\Debug\uploadflags.txt

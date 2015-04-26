@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="autocomplete\MainActivity.cs" Line="1" Column="1" />
+      <File FileName="autocomplete\Assets\AboutAssets.txt" Line="1" Column="1" />
+      <File FileName="autocomplete\Resources\values\Strings.xml" Line="6" Column="2" />
+      <File FileName="autocomplete\Resources\AboutResources.txt" Line="45" Column="1" />
+      <File FileName="autocomplete\Resources\Resource.designer.cs" Line="57" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.autocomplete MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+</Properties>

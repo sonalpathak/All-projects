@@ -1,0 +1,4 @@
+AndroidTabLayout.MainActivity;androidtablayout.MainActivity
+AndroidTabLayout.contacts;androidtablayout.contacts
+AndroidTabLayout.number;androidtablayout.number
+AndroidTabLayout.All_mail;androidtablayout.All_mail
