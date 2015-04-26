@@ -1,0 +1,84 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.SchoolDetailsReviewControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+   
+        <UserControl.Resources>
+        <DataTemplate x:Key="Comments250x250ItemTemplate">
+            
+            <Grid HorizontalAlignment="Left"  >
+                
+                <StackPanel Orientation="Vertical">
+                        <TextBlock Text="{Binding Comment}" Foreground="Black" TextWrapping="Wrap"></TextBlock>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Posted on" Foreground="Black" FontStyle="Italic"></TextBlock>
+                        <TextBlock Text="{Binding Created}" Foreground="Black" Margin="5,0,0,0" />
+                        <TextBlock Text="by" Foreground="Black" FontStyle="Italic" Margin="5,0,0,0"></TextBlock>
+                        <TextBlock Text="{Binding Username}" Foreground="Black"  Margin="5,0,0,0" />
+                    </StackPanel>
+                        <!--<TextBlock Text="{Binding Created}" Foreground="Black" Margin="0,20,10,0" />-->
+                        <!--<StackPanel Margin="10,5,0,0">
+                            <TextBlock Text="{Binding Username}" Foreground="Black"  TextWrapping="NoWrap"  />
+                        </StackPanel>-->
+
+                    
+                </StackPanel>
+              
+
+
+            </Grid>
+          
+
+
+        </DataTemplate>
+
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <ListView Grid.Row="0"
+       x:Name="itemGridView"
+      
+           ScrollViewer.VerticalScrollBarVisibility="Visible"
+            ItemsSource="{Binding CommentDetails}"
+            ItemTemplate="{StaticResource Comments250x250ItemTemplate}"
+            ScrollViewer.VerticalScrollMode="Enabled"
+            SelectionMode="None"
+            IsSwipeEnabled="false"
+           
+        >
+            <!--<ListView.ItemsPanel>
+            <ItemsPanelTemplate>
+                
+               
+            </ItemsPanelTemplate>
+        </ListView.ItemsPanel>-->
+
+        </ListView>
+    </Grid>
+
+   
+
+    <!--<Grid>
+        <StackPanel>
+            <TextBlock Height="100" Width="700" Foreground="Black" Text="{Binding CommentDetails.Comment}"></TextBlock>
+           
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Height="20" Text="Posted" Width="33"  Foreground="Black"></TextBlock>
+            <TextBlock Text="{Binding CommentDetails.Created}"  Width="120"></TextBlock>
+            <TextBlock Height="20" Text="By" Width="50"  Foreground="Black"></TextBlock>
+            <TextBlock Text="{Binding CommentDetails.Username}"></TextBlock>
+        </StackPanel>
+
+    </Grid>-->
+</UserControl>
+
+

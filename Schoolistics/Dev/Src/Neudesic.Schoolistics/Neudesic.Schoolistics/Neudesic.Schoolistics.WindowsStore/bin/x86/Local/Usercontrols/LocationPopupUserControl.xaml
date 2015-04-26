@@ -1,0 +1,44 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.LocationPopupUserControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+    
+    <!--<Grid>
+        <StackPanel Background="White" Height="300" Width="400">
+            <TextBlock Text="SchoolName" FontSize="12" Foreground="Black"></TextBlock>
+        </StackPanel>
+
+    </Grid>-->
+    <Grid>
+        <Path Data="M0,1 L99,0.5 L99.5,78.75 L19,79 L1.25,97.75 L10.5,79.5 L-0.25,79 z"
+              Fill="#FF007AF3"
+              HorizontalAlignment="Left"
+              Height="100"
+              Margin="-0.75,0,-122.25,0"
+              Stretch="Fill"
+              Stroke="#FF007AF3"
+              UseLayoutRounding="False"
+              VerticalAlignment="Top"
+              Width="223" />
+        <Grid Margin="4,4,4,23">
+            <TextBlock HorizontalAlignment="Left"
+                       TextWrapping="Wrap"
+                       Text="{Binding SchoolName}"
+                       VerticalAlignment="Top"
+                       FontSize="26.667" />
+            <TextBlock HorizontalAlignment="Right"
+                       TextWrapping="Wrap"
+                       Text="{Binding SchoolAddress_schooldetails}"
+                       VerticalAlignment="Bottom"
+                       FontSize="26.667" />
+        </Grid>
+
+    </Grid>
+</UserControl>
+

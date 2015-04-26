@@ -1,0 +1,46 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.FindSchoolsAppBarOnGridClickControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="60,10,0,10">
+                <Button x:ConnectionId='2' Name="compareButton" Height="40" Width="40"                             >
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="../Assets/Scale.png"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <TextBlock Text="Save to Compare" FontSize="13" FontFamily="OPEN SANS" Margin="-28,5,0,0"></TextBlock>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="30,10,0,10">
+                <Button Name="bookmarkButton" Height="40" Width="40" Command="{Binding BookmarkSchool}" >
+                <Button.Template>
+                    <ControlTemplate>
+                        <Image Source="../Assets/Bookmark.png"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <TextBlock Text="Bookmark" FontSize="13" FontFamily="OPEN SANS" Margin="-5,5,0,0"></TextBlock>
+        </StackPanel>
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="30,10,40,10">
+                <Button x:ConnectionId='1' Name="shareButton" Height="40" Width="40"                          >
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="../Assets/Data-Export.png"/>
+                        </ControlTemplate>
+                    </Button.Template> >
+                </Button>
+                <TextBlock Text="Share" FontSize="13" FontFamily="OPEN SANS" Margin="5,5,0,0"></TextBlock>
+            </StackPanel >
+        </StackPanel>
+    </Grid>
+</UserControl>
+

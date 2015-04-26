@@ -1,0 +1,55 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.RegistrationControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:callisto="using:Callisto.Controls"
+    xmlns:common="using:Neudesic.Schoolistics.WindowsStore.Common"
+    xmlns:rt="using:WinRTXamlToolkit.Controls"
+    mc:Ignorable="d"
+    d:DesignHeight="768"
+    d:DesignWidth="400"
+    >
+
+    <Grid>
+        <Grid.Background>
+            <SolidColorBrush Color="#d54b1a"></SolidColorBrush>
+        </Grid.Background>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="40,40,0,0">
+                <Button VerticalAlignment="Center" Name="backButton" Click="backButton_Click" >
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="../Assets/back-button.png"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <TextBlock Margin="20,0,0,0"  VerticalAlignment="Center" FontSize="30">Sign Up</TextBlock>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" Margin="40,50,0,0">
+                <callisto:WatermarkTextBox  InputScope="AlphanumericFullWidth" Height="9" Margin="0,0,20,0"   Text="{Binding Username, Mode=TwoWay}"   Foreground="#424242" FontFamily="Open Sans"  Watermark="Username*" />
+                <rt:WatermarkPasswordBox x:Name="passwordBox"  Height="9" Margin="0,10,20,0"   Foreground="#424242" FontFamily="Open Sans" WatermarkText="Password*"></rt:WatermarkPasswordBox>
+                <rt:WatermarkPasswordBox x:Name="ReEnterPasswordBox"  Height="9" Margin="0,10,20,0"   Foreground="#424242" FontFamily="Open Sans" WatermarkText="Re Enter Password*"></rt:WatermarkPasswordBox>
+                <callisto:WatermarkTextBox  InputScope="AlphanumericFullWidth" Height="9"  Margin="0,10,20,0"  Text="{Binding Email, Mode=TwoWay}"  Foreground="#424242" FontFamily="Open Sans"  Watermark="Email*" />
+            </StackPanel>
+            <TextBlock Visibility="Collapsed"  Margin="40,10,0,0" x:Name="ErrorBox"/>
+
+            <StackPanel Margin="54,19,28,0" Orientation="Vertical">
+                <TextBlock>                    
+                    	<Run Text="By clicking Sign up, you agree to the terms &amp;" FontSize="14"/>
+                    	<LineBreak/>
+                    	<Run Text="conditions" FontSize="14"/>
+                </TextBlock>
+                <StackPanel Orientation="Horizontal">
+                    <ProgressRing x:Name="signUpProgressRing" Visibility="{Binding RegistrationProgressRingVisibility,Mode=TwoWay,Converter={StaticResource booleanToVisibilityConverter}}" Margin="100,0,0,0"></ProgressRing>
+                    <Button x:Name="Register" IsEnabled="{Binding RegisterButtonEnabled}" Tapped="Register_Tapped"  Content="Sign Up"  Width="147" Height="44" Background="#FFCC00" Foreground="#FFFFFF" FontSize="14" Margin="15,0,0,0" />
+                </StackPanel>
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+
+</UserControl>

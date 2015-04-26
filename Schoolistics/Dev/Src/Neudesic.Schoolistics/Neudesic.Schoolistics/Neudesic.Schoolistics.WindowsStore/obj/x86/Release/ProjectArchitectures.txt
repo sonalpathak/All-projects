@@ -1,0 +1,1 @@
+C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Neudesic.Schoolistics.WindowsStore.csproj;x86

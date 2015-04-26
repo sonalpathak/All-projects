@@ -1,0 +1,62 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.FindSchoolsControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:callisto="using:Callisto.Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="FIND SCHOOLS" FontFamily="OPEN SANS" FontWeight="Bold" Margin="0,7,0,0" FontSize="18.667"></TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <!--<TextBox Text="{Binding SchoolName,Mode=TwoWay}" Background="#ffffff" Width="466" Margin="0,20,0,0" Padding="10,10,0,0" FontFamily="OPEN SANS" FontSize="14.667"  Height="45"  Foreground="#424242"></TextBox>-->
+                <callisto:WatermarkTextBox Watermark="Schoolname*"  InputScope="AlphanumericFullWidth" Text="{Binding SchoolName,Mode=TwoWay}" Background="#ffffff" Width="466" Margin="0,20,0,0" Padding="10,10,0,0" FontFamily="OPEN SANS" FontSize="14.667"  Height="45"  Foreground="#424242" />
+                <!--<StackPanel Background="Red" Width="50" Height="45" Margin="13,20,0,0">
+                <Button>
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="../Assets/current-location-icon.png" Margin="10,8,0,0" Height="27" Width="28"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                </StackPanel>-->
+                <!--<Image Source="../Assets/current-location-icon.png" Width="28" Height="27" Margin="-40,20,0,0"></Image>-->
+            </StackPanel>
+            <ComboBox ItemsSource="{Binding SchoolClasses}" Background="White" SelectedItem="{Binding ClassSelectedItem, Mode=TwoWay}" Width="466" Margin="0,10,0,0" Height="45"/>
+            <StackPanel Orientation="Horizontal">
+                <ComboBox Background="White" ItemsSource="{Binding SchoolCity}" SelectedItem="{Binding CitySelectedItem,Mode=TwoWay}" Margin="0,8,0,0" Width="230" Height="45"></ComboBox>
+                <ComboBox Background="White" ItemsSource="{Binding SchoolAccredition}" SelectedItem="{Binding AccreditionSelectedItem,Mode=TwoWay}" Margin="7,8,24,0" Width="230" Height="45"></ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <ComboBox Background="White" ItemsSource="{Binding SchoolRating}" ItemTemplate="{StaticResource ItemTemplateComboBox}" x:Name="ratingComboBox" SelectedItem="{Binding RatingSearch,Converter={StaticResource FindSchoolsImageToIntConverter},Mode=TwoWay}" Margin="0,8,0,0" Width="230" Height="45">
+                    <!--<Image Source="../Assets/1-star-rating.png" Height="15" HorizontalAlignment="Left"></Image>
+                    <Image Source="../Assets/2-star-rating.png" Height="15" HorizontalAlignment="Left"></Image>
+                    <Image Source="../Assets/3-star-rating.png" Height="15" HorizontalAlignment="Left"></Image>
+                    <Image Source="../Assets/4-star-rating.png" Height="15" HorizontalAlignment="Left"></Image>
+                    <Image Source="../Assets/5-star-rating.png" Height="15" HorizontalAlignment="Left"></Image>-->
+                </ComboBox>
+                <ComboBox x:Name="distanceComboBox" Background="White" ItemsSource="{Binding SchoolDistance}" SelectedItem="{Binding DistanceSelectedItem,Mode=TwoWay}" Margin="7,8,24,0" Width="230" Height="45"></ComboBox>
+            </StackPanel>
+            <!--<StackPanel Orientation="Horizontal">
+                <ComboBox Margin="0,8,0,0" Width="230" Height="45"></ComboBox>
+                <ComboBox Margin="7,8,24,0" Width="230" Height="45"></ComboBox>
+            </StackPanel>-->
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Budget" FontFamily="OPEN SANS" FontSize="14.667" Margin="0,17,0,0"></TextBlock>
+                <!--<TextBlock Text="{Binding Value, ElementName=budgetSlider}" FontFamily="OPEN SANS" FontSize="12" Margin="17,17,0,0"></TextBlock>-->
+            </StackPanel>
+            <!--<Slider x:Name="budgetSlider" IsDirectionReversed="True" FlowDirection="RightToLeft" Minimum="10000" Maximum="1000000" Foreground="White"></Slider>-->
+            <local:FindSchoolsRangeSliderUserControl></local:FindSchoolsRangeSliderUserControl>
+            <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                <CheckBox IsChecked="{Binding AdmissionProgress,Mode=TwoWay}">
+                    <TextBlock Margin="5,0,0,0" Text="Admission in progress" FontSize="14.667" FontFamily="OPEN SANS"></TextBlock>
+                </CheckBox>
+                <Button Command="{Binding SearchCommand}" Content="Search" FontSize="18.667" Foreground="#ffffff" Margin="92,0,0,0" Width="200" Height="50" Background="#ffcc00" BorderBrush="#ffcc00"></Button>
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</UserControl>

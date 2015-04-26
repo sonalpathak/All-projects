@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#0d2d50">
+    <TextView
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLarge"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:shadowColor="#fff9ea14"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left" />
+    <ImageView
+        android:id="@+id/sru"
+        android:layout_marginTop="-35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="43dp"
+        android:layout_height="46dp"
+        android:background="@drawable/Neu_logo"
+        android:paddingBottom="0dp" />
+</LinearLayout>

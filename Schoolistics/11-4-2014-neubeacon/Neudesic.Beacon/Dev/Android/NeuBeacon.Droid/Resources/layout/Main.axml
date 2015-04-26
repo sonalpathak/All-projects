@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1"
+    p1:gravity="center"
+    p1:background="#0D2D50">
+    <RelativeLayout
+        p1:layout_width="231dp"
+        p1:layout_height="229dp"
+        p1:id="@+id/relativeLayout2"
+        p1:gravity="center"
+        p1:layout_centerInParent="true">
+        <ImageView
+            p1:src="@drawable/about"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/imageAboutNeudesic"
+            p1:layout_centerHorizontal="true"
+            p1:layout_alignParentTop="true" />
+        <ImageView
+            p1:src="@drawable/neucareer"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/imageViewNeuCareers"
+            p1:layout_alignParentBottom="true"
+            p1:layout_alignParentLeft="true" />
+        <ImageView
+            p1:src="@drawable/quiz"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/imageViewQuiz"
+            p1:layout_alignParentRight="true"
+            p1:layout_alignParentBottom="true" />
+        <ImageView
+            p1:src="@drawable/n_logo"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/imageView1"
+            p1:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="500dp"
+        p1:layout_height="100dp"
+        p1:id="@+id/linearLayout3"
+        p1:layout_below="@+id/relativeLayout2">
+        <Button
+            p1:text="Simulate About"
+            p1:layout_width="100dp"
+            p1:layout_height="100dp"
+            p1:id="@+id/button1" />
+        <Button
+            p1:text="Simulate Careers"
+            p1:layout_width="100dp"
+            p1:layout_height="100dp"
+            p1:id="@+id/button2" />
+        <Button
+            p1:text="Simulate Quiz"
+            p1:layout_width="100dp"
+            p1:layout_height="100dp"
+            p1:id="@+id/button3" />
+    </LinearLayout>
+</RelativeLayout>

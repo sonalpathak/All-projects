@@ -1,0 +1,36 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.UserHeaderControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Image VerticalAlignment="Center" Source="../Assets/profile-pic.png"></Image>
+            <TextBlock Tapped="btnLogin_Tapped_1" Margin="10,15,0,0" x:Name="loginButton" Text="Login" FontSize="20"></TextBlock>
+
+            <StackPanel Margin="10,15,0,0" x:Name="profileButton" Tapped="profileButton_Tapped" Orientation="Horizontal">
+                <TextBlock x:Name="usernameTextBlock" FontSize="20" Margin="0,0,10,0" ></TextBlock>
+                <Line StrokeThickness="1" X1="0" Y1="0"
+     X2="0" Y2="20" Stroke="White"  ></Line>
+                <TextBlock x:Name="logoutButton" Tapped="logoutButton_Tapped" Margin="10,0,0,0" Text="Log Out" FontSize="20" ></TextBlock>
+            </StackPanel>
+
+        </StackPanel>
+        <!--<StackPanel x:Name="loginStackPanel" Orientation="Horizontal">
+            <TextBlock Text="Welcome Guest" Foreground="White" FontSize="12" ></TextBlock>
+            <TextBlock x:Name="userFullNameTextBlock" Margin="5,0,0,0" FontWeight="SemiBold" Foreground="White" FontSize="12" ></TextBlock>
+            <StackPanel  Margin="5,0,0,0" Orientation="Horizontal">
+               
+                <Button Margin="0,-10,0,0" Style="{StaticResource UserHeaderLoginButtonStyle}" Content="Login" Foreground="Gold" FontSize="12" Tapped="btnLogin_Tapped_1">
+                </Button>
+            </StackPanel>
+        </StackPanel>-->
+
+    </StackPanel>
+</UserControl>

@@ -1,0 +1,56 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.SeniorManagementTeamUserControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+    <UserControl.Resources>
+        <DataTemplate x:Key="Management250x250ItemTemplate">
+            <Grid HorizontalAlignment="Left"  >
+                <StackPanel Orientation="Horizontal" Height="150" >
+                <Border >
+                    <Image  Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}" Source="{Binding Image}"/>
+                </Border>
+                    <StackPanel Orientation="Vertical" Width="100">
+                    <TextBlock Text="{Binding Name}" Foreground="Black" Margin="10,90,0,0" />
+                    <StackPanel Margin="10,5,0,0">
+                        <TextBlock Text="{Binding Position}" Foreground="Black"  TextWrapping="NoWrap"  />
+                    </StackPanel>
+                   
+                    </StackPanel>
+                </StackPanel>
+
+                
+                
+            </Grid>
+
+        </DataTemplate>
+
+    </UserControl.Resources>
+
+    <Grid>
+      
+
+
+        <!-- Horizontal scrolling grid used in most view states -->
+        <GridView
+            x:Name="itemGridView"
+            AutomationProperties.AutomationId="ItemsGridView"
+            AutomationProperties.Name="Items"
+            ItemsSource="{Binding ManagementDetails}"
+            ItemTemplate="{StaticResource Management250x250ItemTemplate}"
+            SelectionMode="None"
+            IsSwipeEnabled="false">
+
+            <GridView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VariableSizedWrapGrid Orientation="Vertical" MaximumRowsOrColumns="3"></VariableSizedWrapGrid>
+                </ItemsPanelTemplate>
+            </GridView.ItemsPanel>
+        </GridView>
+    </Grid>
+</UserControl>

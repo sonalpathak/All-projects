@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Neudesic.Schoolistics.Cloud", "Neudesic.Schoolistics.Cloud\Neudesic.Schoolistics.Cloud.ccproj", "{EC808840-CB81-4E95-BF5C-1A1C24D258AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neudesic.Schoolistics.WebRole", "Neudesic.Schoolistics.WebRole\Neudesic.Schoolistics.WebRole.csproj", "{C989FDF3-DB68-4115-A72E-7F73D3CF77AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4C310F9C-3511-4CF1-9268-C1942B41DFD7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neudesic.Schoolistics.Framework", "Neudesic.Schoolistics.Framework\Neudesic.Schoolistics.Framework.csproj", "{19E264FD-658A-43E2-B5B9-8B99210E4B45}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://intfs02:8080/tfs/clientcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Neudesic.Schoolistics.Cloud\\Neudesic.Schoolistics.Cloud.ccproj
+		SccProjectName1 = Neudesic.Schoolistics.Cloud
+		SccLocalPath1 = Neudesic.Schoolistics.Cloud
+		SccProjectUniqueName2 = Neudesic.Schoolistics.WebRole\\Neudesic.Schoolistics.WebRole.csproj
+		SccProjectName2 = Neudesic.Schoolistics.WebRole
+		SccLocalPath2 = Neudesic.Schoolistics.WebRole
+		SccProjectUniqueName3 = Neudesic.Schoolistics.Framework\\Neudesic.Schoolistics.Framework.csproj
+		SccProjectName3 = Neudesic.Schoolistics.Framework
+		SccLocalPath3 = Neudesic.Schoolistics.Framework
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC808840-CB81-4E95-BF5C-1A1C24D258AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC808840-CB81-4E95-BF5C-1A1C24D258AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC808840-CB81-4E95-BF5C-1A1C24D258AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC808840-CB81-4E95-BF5C-1A1C24D258AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C989FDF3-DB68-4115-A72E-7F73D3CF77AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C989FDF3-DB68-4115-A72E-7F73D3CF77AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C989FDF3-DB68-4115-A72E-7F73D3CF77AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C989FDF3-DB68-4115-A72E-7F73D3CF77AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E264FD-658A-43E2-B5B9-8B99210E4B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E264FD-658A-43E2-B5B9-8B99210E4B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E264FD-658A-43E2-B5B9-8B99210E4B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E264FD-658A-43E2-B5B9-8B99210E4B45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

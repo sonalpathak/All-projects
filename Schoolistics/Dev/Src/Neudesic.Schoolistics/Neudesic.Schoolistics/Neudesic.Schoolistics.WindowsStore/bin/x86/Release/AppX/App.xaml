@@ -1,0 +1,85 @@
+﻿ <Application
+    x:Class="Neudesic.Schoolistics.WindowsStore.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:nativeConveters="using:Neudesic.Schoolistics.WindowsStore.Converters"
+    xmlns:chart="using:De.TorstenMandelkow.MetroChart">
+
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="CustomInfoboxStyle" TargetType="ToolTip">
+                <Setter Property="Background" Value="Transparent" />
+                <Setter Property="BorderBrush" Value="Transparent" />
+                <Setter Property="BorderThickness" Value="0" />
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate>
+                            <Border CornerRadius="5">
+                                <Border.Background>
+                                    <SolidColorBrush Color="Black" Opacity="0.5"/>
+                                </Border.Background>
+                                <ContentPresenter Margin="5">
+                                    <ContentPresenter.Content>
+                                        <StackPanel Margin="5" MaxWidth="200">
+                                            <TextBlock Text="{Binding Details.SchoolName,Mode=TwoWay}" FontWeight="Bold" FontSize="16" Foreground="White"/>
+                                            <TextBlock Text="{Binding Details.Address,Mode=TwoWay}" Foreground="White" TextWrapping="Wrap"/>
+                                            <!--<TextBlock Text="{Binding RatingNumber}" Foreground="White" TextWrapping="Wrap"/>-->
+                                        </StackPanel>
+                                    </ContentPresenter.Content>
+                                </ContentPresenter>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <nativeConveters:SchoolDetailsLogoConverter x:Key="Logoconverter"></nativeConveters:SchoolDetailsLogoConverter>
+            <nativeConveters:PopularComparisonsGridViewItemVisibilityConverter x:Key="PopularComparisonsGridViewItemVisibilityConverter"></nativeConveters:PopularComparisonsGridViewItemVisibilityConverter>
+            <nativeConveters:ConverterToDisplayTwoPopularSchools x:Key="ConverterToDisplayTwoPopularSchools"></nativeConveters:ConverterToDisplayTwoPopularSchools>
+            <nativeConveters:BooleanToImageConverter x:Key="BooleanToImageConverter" ></nativeConveters:BooleanToImageConverter>
+            <nativeConveters:SearchResultsBooleanToVisibilityConverter x:Key="booleanToVisibilityConverter" ></nativeConveters:SearchResultsBooleanToVisibilityConverter>
+            <nativeConveters:FindSchoolsIntToImageConverter x:Key="FindSchoolsIntToImageConverter" ></nativeConveters:FindSchoolsIntToImageConverter>
+            <nativeConveters:FindSchoolsImageToIntConverter x:Key="FindSchoolsImageToIntConverter"></nativeConveters:FindSchoolsImageToIntConverter>
+            <nativeConveters:FindSchoolsImageStringToVisibilityConverter x:Key="FindSchoolsImageStringToVisibilityConverter"></nativeConveters:FindSchoolsImageStringToVisibilityConverter>
+            <nativeConveters:FindSchoolsRatingStringToVisibilityConverter x:Key="FindSchoolsRatingStringToVisibilityConverter"></nativeConveters:FindSchoolsRatingStringToVisibilityConverter>
+            <nativeConveters:NewsArticleIntToImageConverter x:Key="NewsArticleIntToImageConverter"></nativeConveters:NewsArticleIntToImageConverter>
+            
+           
+            <nativeConveters:BooleantoVisibility x:Key="chartVisibilityConverter"></nativeConveters:BooleantoVisibility>
+            <nativeConveters:IntToImageConverter x:Key="ImageConverter"></nativeConveters:IntToImageConverter>
+            <nativeConveters:SchoolDetailsImageToIntConverter x:Key="SchoolDetailsImageToIntConverter"></nativeConveters:SchoolDetailsImageToIntConverter>
+            <nativeConveters:FeaturedSchoolsConverter x:Key="FileNameToImageConverter"></nativeConveters:FeaturedSchoolsConverter>
+         
+            <!--<nativeConveters:SchoolDetailsLogoConverter x:Key="LogoConverter"></nativeConveters:SchoolDetailsLogoConverter>-->
+                <chart:ResourceDictionaryCollection x:Name="testColor">
+                <ResourceDictionary>
+                    <SolidColorBrush x:Key="Brush1" Color="#FFCC00" />
+                </ResourceDictionary>
+                <ResourceDictionary>
+                    <SolidColorBrush x:Key="Brush2" Color="#056E88" />
+                </ResourceDictionary>
+                <ResourceDictionary>
+                    <SolidColorBrush x:Key="Brush3" Color="#D54b1A" />
+                </ResourceDictionary>
+                <ResourceDictionary>
+                    <SolidColorBrush x:Key="Brush4" Color="#333333" />
+                </ResourceDictionary>
+                <ResourceDictionary>
+                    <SolidColorBrush x:Key="Brush4" Color="#FFFFFF" />
+                </ResourceDictionary>
+                
+
+            </chart:ResourceDictionaryCollection>
+            <ResourceDictionary.MergedDictionaries>
+
+                <!-- 
+                    Styles that define common aspects of the platform look and feel
+                    Required by Visual Studio project and item templates
+                 -->
+                <ResourceDictionary Source="Common/StandardStyles.xaml" />
+                
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+

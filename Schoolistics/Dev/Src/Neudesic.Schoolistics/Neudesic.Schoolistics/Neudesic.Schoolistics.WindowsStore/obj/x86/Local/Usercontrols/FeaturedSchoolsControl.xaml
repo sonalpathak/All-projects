@@ -1,0 +1,47 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.FeaturedSchoolsControlxaml"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+  d:DesignHeight="350"
+    d:DesignWidth="400">
+
+
+
+    <Grid>
+        <Button 
+            Style="{StaticResource TextPrimaryButtonStyle}"
+               Margin="0,-95,0,360"  >
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="FEATURED SCHOOLS"   FontSize="20" FontWeight="Bold" FontFamily="Open sans" Style="{StaticResource GroupHeaderTextStyle}" />
+            </StackPanel>
+        </Button>
+        <ProgressRing Visibility="{Binding ProgressBarVisibility,Mode=TwoWay,Converter={StaticResource booleanToVisibilityConverter}}" Name="progressBar" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="0,20,0,10" Foreground="Yellow" Width="60" Height="60" IsActive="{Binding ProgressBarVisibility,Mode=TwoWay}" />
+
+        <GridView x:ConnectionId='1'
+            Visibility="{Binding GridViewVisibility,Mode=TwoWay,Converter={StaticResource booleanToVisibilityConverter}}"
+                Margin="0,52,0,0"
+               Padding="0,0,5,5"
+                x:Name="itemGridView"
+                AutomationProperties.AutomationId="ItemsGridView"
+                AutomationProperties.Name="Items"
+                TabIndex="1"
+                ItemsSource="{Binding FeaturedSchools,Mode=TwoWay}"
+                ItemTemplate="{StaticResource SampleFeaturedSchoolsGridView }"
+                IsSwipeEnabled="false"
+               IsItemClickEnabled="True"
+                                               
+                >
+
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VariableSizedWrapGrid MaximumRowsOrColumns="2" Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+        </GridView>
+    </Grid>
+</UserControl>
+

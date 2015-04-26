@@ -1,0 +1,55 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.FindSchoolsBottomAppBarControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+    <StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="0,0,60,0">
+            <Button x:ConnectionId='4' Name="refineButton" Height="40" Width="40" Margin="40,10,0,10"                           >
+                <Button.Template>
+                    <ControlTemplate>
+                        <Image Source="../Assets/Filter-Standard.png"/>
+                    </ControlTemplate>
+                </Button.Template> >
+            </Button>
+            <TextBlock Text="Refine" FontSize="15" Margin="40,0,0,0" FontFamily="OPEN SANS"></TextBlock>
+        </StackPanel >
+        <StackPanel Name="mapButtonStackPanel" Visibility="{Binding GridVisibility,Mode=TwoWay,Converter={StaticResource booleanToVisibilityConverter}}"  Orientation="Vertical" HorizontalAlignment="Left" Margin="0,0,60,0">
+            <Button x:ConnectionId='3' Name="mapButton" Height="40" Width="40" Margin="0,10,40,10"                        >
+                <Button.Template>
+                    <ControlTemplate>
+                        <Image Source="../Assets/Map-Location.png"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <TextBlock Name="mapTextBlock" Text="Map View" FontSize="15" Margin="-10,0,0,0" FontFamily="OPEN SANS"></TextBlock>
+        </StackPanel>
+        <StackPanel Name="gridButtonStackPanel" Visibility="{Binding MapVisibility,Mode=TwoWay,Converter={StaticResource booleanToVisibilityConverter}}" Orientation="Vertical" HorizontalAlignment="Left" Margin="0,0,60,0" >
+            <Button x:ConnectionId='2' Name="gridButton" Height="40" Width="40" Margin="0,10,40,10"                         >
+                <Button.Template>
+                    <ControlTemplate>
+                        <Image Source="../Assets/grid-view.png"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <TextBlock Name="gridTextBlock" Text="Grid View" FontSize="15" Margin="-10,0,0,0" FontFamily="OPEN SANS"></TextBlock>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="1050,0,40,0" >
+            <Button x:ConnectionId='1' Name="saveButton" Height="40" Width="40" Margin="0,10,53,10"                         >
+                <Button.Template>
+                    <ControlTemplate>
+                        <Image Source="../Assets/Save.png"/>
+                    </ControlTemplate>
+
+                </Button.Template>
+            </Button>
+            <TextBlock Text="Save" FontSize="15" Margin="5,0,40,0" FontFamily="OPEN SANS"></TextBlock>
+        </StackPanel>
+    </StackPanel>
+</UserControl>
+

@@ -1,0 +1,1057 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN8-VM-SONAL</Machine>
+    <WindowsUser>NeuAdmin</WindowsUser>
+    <SolutionConfiguration>Local|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <RegisteredManifestChecksum>3A93FF06411C12445F84CC42A18A8679DD0F33138361EA0B53AC6C74B38981AD</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>4a410f4a-c4bd-49c9-b20c-754a86c7f5f8_1.0.0.5_x86__16b9q6tb0aqbm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>4a410f4a-c4bd-49c9-b20c-754a86c7f5f8_16b9q6tb0aqbm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>4a410f4a-c4bd-49c9-b20c-754a86c7f5f8</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Adrian</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.5</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-04-04T09:59:53.979</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Neudesic.Schoolistics.WindowsStore.exe">
+      <PackagePath>Neudesic.Schoolistics.WindowsStore.exe</PackagePath>
+      <Modified>2014-04-04T10:20:29.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Neudesic.Schoolistics.WindowsStore.pdb">
+      <PackagePath>Neudesic.Schoolistics.WindowsStore.pdb</PackagePath>
+      <Modified>2014-04-04T10:20:29.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\References\commonconfiguration\neutral\Bing.Maps.winmd">
+      <PackagePath>Bing.Maps.winmd</PackagePath>
+      <Modified>2014-02-24T10:37:48.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\Callisto.1.2.4\lib\winrt45\Callisto.dll">
+      <PackagePath>Callisto.dll</PackagePath>
+      <Modified>2014-03-20T08:14:34.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\netcore45\Cirrious.CrossCore.dll">
+      <PackagePath>Cirrious.CrossCore.dll</PackagePath>
+      <Modified>2014-02-25T05:56:07.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\netcore45\Cirrious.CrossCore.WindowsStore.dll">
+      <PackagePath>Cirrious.CrossCore.WindowsStore.dll</PackagePath>
+      <Modified>2014-02-25T05:56:07.303</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.1.1\lib\netcore45\Cirrious.MvvmCross.dll">
+      <PackagePath>Cirrious.MvvmCross.dll</PackagePath>
+      <Modified>2014-02-25T05:56:07.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\netcore45\Cirrious.MvvmCross.Localization.dll">
+      <PackagePath>Cirrious.MvvmCross.Localization.dll</PackagePath>
+      <Modified>2014-02-25T05:56:07.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\MvvmCross.HotTuna.Plugin.Messenger.3.1.1\lib\netcore45\Cirrious.MvvmCross.Plugins.Messenger.dll">
+      <PackagePath>Cirrious.MvvmCross.Plugins.Messenger.dll</PackagePath>
+      <Modified>2014-02-25T05:56:18.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.1.1\lib\netcore45\Cirrious.MvvmCross.WindowsStore.dll">
+      <PackagePath>Cirrious.MvvmCross.WindowsStore.dll</PackagePath>
+      <Modified>2014-02-25T05:56:07.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\ModernChart.1.0.0\lib\netcore45\De.TorstenMandelkow.MetroChart.dll">
+      <PackagePath>De.TorstenMandelkow.MetroChart.dll</PackagePath>
+      <Modified>2014-02-28T06:22:09.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\Facebook.6.4.2\lib\win8\Facebook.dll">
+      <PackagePath>Facebook.dll</PackagePath>
+      <Modified>2014-03-26T10:39:31.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics.Core\bin\Local\Neudesic.Schoolistics.Core.dll">
+      <PackagePath>Neudesic.Schoolistics.Core.dll</PackagePath>
+      <Modified>2014-04-04T09:59:39.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\Newtonsoft.Json.6.0.1\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2014-02-28T06:21:46.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\TwitterRt.1.0.4\lib\winrt45\TwitterRtLibrary.dll">
+      <PackagePath>TwitterRtLibrary.dll</PackagePath>
+      <Modified>2014-03-19T11:29:11.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit.dll">
+      <PackagePath>WinRTXamlToolkit.dll</PackagePath>
+      <Modified>2014-04-03T06:18:14.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics.Core\bin\Local\Neudesic.Schoolistics.Core.pdb">
+      <PackagePath>Neudesic.Schoolistics.Core.pdb</PackagePath>
+      <Modified>2014-04-04T09:59:39.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\retail\x86\Bing.Maps.dll">
+      <PackagePath>Bing.Maps.dll</PackagePath>
+      <Modified>2014-02-24T10:37:48.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Font\Bing_Maps_Symbol.ttf">
+      <PackagePath>Bing.Maps\Font\Bing_Maps_Symbol.ttf</PackagePath>
+      <Modified>2014-02-24T10:37:47.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Blocked_Regions_01.png">
+      <PackagePath>Bing.Maps\Blocked_Regions_01.png</PackagePath>
+      <Modified>2014-02-24T10:37:47.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\circleImage-noalpha.png">
+      <PackagePath>Bing.Maps\circleImage-noalpha.png</PackagePath>
+      <Modified>2014-02-24T10:37:47.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\circleImage.png">
+      <PackagePath>Bing.Maps\circleImage.png</PackagePath>
+      <Modified>2014-02-24T10:37:47.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\dashedImage.png">
+      <PackagePath>Bing.Maps\dashedImage.png</PackagePath>
+      <Modified>2014-02-24T10:37:47.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\BuildingShaderXYZN-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\BuildingShaderXYZN-downlevel.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\BuildingShaderXYZN.ps">
+      <PackagePath>Bing.Maps\Shaders\BuildingShaderXYZN.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXY-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXY-downlevel.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXY.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXY.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC-Compressed-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC-Compressed-downlevel.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC-Compressed.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC-Compressed.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.175</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC-downlevel.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUV-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUV-downlevel.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUV.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUV.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUVUVC-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUVUVC-downlevel.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUVUVC.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUVUVC.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZW-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZW-downlevel.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZW.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZW.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZWUV-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZWUV-downlevel.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZWUV.ps">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZWUV.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\LineShaderXYNMC-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\LineShaderXYNMC-downlevel.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\LineShaderXYNMC.ps">
+      <PackagePath>Bing.Maps\Shaders\LineShaderXYNMC.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\TextRenderingShader-downlevel.ps">
+      <PackagePath>Bing.Maps\Shaders\TextRenderingShader-downlevel.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\TextRenderingShader.ps">
+      <PackagePath>Bing.Maps\Shaders\TextRenderingShader.ps</PackagePath>
+      <Modified>2014-02-24T10:37:47.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\BuildingShaderXYZN-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\BuildingShaderXYZN-downlevel.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\BuildingShaderXYZN.vs">
+      <PackagePath>Bing.Maps\Shaders\BuildingShaderXYZN.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXY-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXY-downlevel.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXY.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXY.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC-Compressed-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC-Compressed-downlevel.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC-Compressed.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC-Compressed.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC-downlevel.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYC.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYC.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUV-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUV-downlevel.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUV.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUV.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUVUVC-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUVUVC-downlevel.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYUVUVC.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYUVUVC.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZW-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZW-downlevel.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.256</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZW.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZW.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZWUV-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZWUV-downlevel.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\DefaultShaderXYZWUV.vs">
+      <PackagePath>Bing.Maps\Shaders\DefaultShaderXYZWUV.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\LineShaderXYNMC-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\LineShaderXYNMC-downlevel.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\LineShaderXYNMC.vs">
+      <PackagePath>Bing.Maps\Shaders\LineShaderXYNMC.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\TextRenderingShader-downlevel.vs">
+      <PackagePath>Bing.Maps\Shaders\TextRenderingShader-downlevel.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shaders\TextRenderingShader.vs">
+      <PackagePath>Bing.Maps\Shaders\TextRenderingShader.vs</PackagePath>
+      <Modified>2014-02-24T10:37:47.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\CMF.ont">
+      <PackagePath>Bing.Maps\CMF.ont</PackagePath>
+      <Modified>2014-02-24T10:37:47.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\LandmarkSchema.ont">
+      <PackagePath>Bing.Maps\LandmarkSchema.ont</PackagePath>
+      <Modified>2014-02-24T10:37:47.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Schema.ont">
+      <PackagePath>Bing.Maps\Schema.ont</PackagePath>
+      <Modified>2014-02-24T10:37:47.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\VenueMapsSchema.ont">
+      <PackagePath>Bing.Maps\VenueMapsSchema.ont</PackagePath>
+      <Modified>2014-02-24T10:37:47.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\EnglishEntityNames.hlx">
+      <PackagePath>Bing.Maps\EnglishEntityNames.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\EntityLookup.hlx">
+      <PackagePath>Bing.Maps\EntityLookup.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\EntityNameLength.hlx">
+      <PackagePath>Bing.Maps\EntityNameLength.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\GermanicEntityNames.hlx">
+      <PackagePath>Bing.Maps\GermanicEntityNames.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\InvariantEntityNames.hlx">
+      <PackagePath>Bing.Maps\InvariantEntityNames.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\LatinEntityNames.hlx">
+      <PackagePath>Bing.Maps\LatinEntityNames.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\NameCount.hlx">
+      <PackagePath>Bing.Maps\NameCount.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\NameRoleLcid.hlx">
+      <PackagePath>Bing.Maps\NameRoleLcid.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\ScandinavianEntityNames.hlx">
+      <PackagePath>Bing.Maps\ScandinavianEntityNames.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shields202.hlx">
+      <PackagePath>Bing.Maps\Shields202.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shields244.hlx">
+      <PackagePath>Bing.Maps\Shields244.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Shields39.hlx">
+      <PackagePath>Bing.Maps\Shields39.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\SlavicEntityNames.hlx">
+      <PackagePath>Bing.Maps\SlavicEntityNames.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Streets202.hlx">
+      <PackagePath>Bing.Maps\Streets202.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Streets244.hlx">
+      <PackagePath>Bing.Maps\Streets244.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Streets39.hlx">
+      <PackagePath>Bing.Maps\Streets39.hlx</PackagePath>
+      <Modified>2014-02-24T10:37:47.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Themes\Generic.xaml">
+      <PackagePath>Bing.Maps\Themes\Generic.xaml</PackagePath>
+      <Modified>2014-02-24T10:37:47.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\h0.tile">
+      <PackagePath>Bing.Maps\h0.tile</PackagePath>
+      <Modified>2014-02-24T10:37:47.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\h1.tile">
+      <PackagePath>Bing.Maps\h1.tile</PackagePath>
+      <Modified>2014-02-24T10:37:47.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\h2.tile">
+      <PackagePath>Bing.Maps\h2.tile</PackagePath>
+      <Modified>2014-02-24T10:37:47.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\h3.tile">
+      <PackagePath>Bing.Maps\h3.tile</PackagePath>
+      <Modified>2014-02-24T10:37:47.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\r0.tile">
+      <PackagePath>Bing.Maps\r0.tile</PackagePath>
+      <Modified>2014-02-24T10:37:47.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\r1.tile">
+      <PackagePath>Bing.Maps\r1.tile</PackagePath>
+      <Modified>2014-02-24T10:37:47.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\r2.tile">
+      <PackagePath>Bing.Maps\r2.tile</PackagePath>
+      <Modified>2014-02-24T10:37:47.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\r3.tile">
+      <PackagePath>Bing.Maps\r3.tile</PackagePath>
+      <Modified>2014-02-24T10:37:47.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\map.config">
+      <PackagePath>Bing.Maps\map.config</PackagePath>
+      <Modified>2014-02-24T10:37:47.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\Thumbs.db">
+      <PackagePath>Bing.Maps\Thumbs.db</PackagePath>
+      <Modified>2014-02-24T10:37:47.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.2\Redist\CommonConfiguration\neutral\Bing.Maps\UnifiedStyle.MapStyle">
+      <PackagePath>Bing.Maps\UnifiedStyle.MapStyle</PackagePath>
+      <Modified>2014-02-24T10:37:47.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\1-5.png">
+      <PackagePath>Assets\1-5.png</PackagePath>
+      <Modified>2014-03-25T04:05:04.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\1-star-rating.png">
+      <PackagePath>Assets\1-star-rating.png</PackagePath>
+      <Modified>2014-03-04T11:05:05.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\1-star.png">
+      <PackagePath>Assets\1-star.png</PackagePath>
+      <Modified>2014-03-12T06:36:56.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\2-5.png">
+      <PackagePath>Assets\2-5.png</PackagePath>
+      <Modified>2014-03-25T04:05:04.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\2-star-rating.png">
+      <PackagePath>Assets\2-star-rating.png</PackagePath>
+      <Modified>2014-03-04T11:05:04.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\2-star.png">
+      <PackagePath>Assets\2-star.png</PackagePath>
+      <Modified>2014-03-12T06:36:57.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\3-5.png">
+      <PackagePath>Assets\3-5.png</PackagePath>
+      <Modified>2014-03-25T04:05:04.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\3-star-rating.png">
+      <PackagePath>Assets\3-star-rating.png</PackagePath>
+      <Modified>2014-03-04T11:05:05.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\3-star.png">
+      <PackagePath>Assets\3-star.png</PackagePath>
+      <Modified>2014-03-12T06:36:57.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\4-5.png">
+      <PackagePath>Assets\4-5.png</PackagePath>
+      <Modified>2014-03-25T04:05:04.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\4-star-rating.png">
+      <PackagePath>Assets\4-star-rating.png</PackagePath>
+      <Modified>2014-03-04T11:05:05.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\4-star.png">
+      <PackagePath>Assets\4-star.png</PackagePath>
+      <Modified>2014-03-12T06:36:57.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\5-star-rating.png">
+      <PackagePath>Assets\5-star-rating.png</PackagePath>
+      <Modified>2014-03-04T11:05:05.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\5-star.png">
+      <PackagePath>Assets\5-star.png</PackagePath>
+      <Modified>2014-03-12T06:36:57.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\add-icon.png">
+      <PackagePath>Assets\add-icon.png</PackagePath>
+      <Modified>2014-03-04T11:05:05.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\alumni-bg.png">
+      <PackagePath>Assets\alumni-bg.png</PackagePath>
+      <Modified>2014-03-06T07:52:40.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\back-button-hover.png">
+      <PackagePath>Assets\back-button-hover.png</PackagePath>
+      <Modified>2014-02-28T06:11:10.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\back-button.png">
+      <PackagePath>Assets\back-button.png</PackagePath>
+      <Modified>2014-02-28T06:11:10.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\background-image.png">
+      <PackagePath>Assets\background-image.png</PackagePath>
+      <Modified>2014-02-28T06:11:17.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Bookmark-New.png">
+      <PackagePath>Assets\Bookmark-New.png</PackagePath>
+      <Modified>2014-02-24T15:22:54.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Bookmark.png">
+      <PackagePath>Assets\Bookmark.png</PackagePath>
+      <Modified>2014-02-28T06:10:25.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Boy-01.png">
+      <PackagePath>Assets\Boy-01.png</PackagePath>
+      <Modified>2014-02-28T06:10:24.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Check.png">
+      <PackagePath>Assets\Check.png</PackagePath>
+      <Modified>2014-02-28T06:10:25.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Command-Reset.png">
+      <PackagePath>Assets\Command-Reset.png</PackagePath>
+      <Modified>2014-03-04T11:05:05.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\compare-no.png">
+      <PackagePath>Assets\compare-no.png</PackagePath>
+      <Modified>2014-03-04T11:05:05.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\compare-tick.png">
+      <PackagePath>Assets\compare-tick.png</PackagePath>
+      <Modified>2014-03-04T11:05:05.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Data-Export.png">
+      <PackagePath>Assets\Data-Export.png</PackagePath>
+      <Modified>2014-02-28T06:11:10.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Document-Download-01.png">
+      <PackagePath>Assets\Document-Download-01.png</PackagePath>
+      <Modified>2014-02-28T06:10:26.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\current-location-icon.png">
+      <PackagePath>Assets\current-location-icon.png</PackagePath>
+      <Modified>2014-02-28T06:10:25.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\down-arrow-icon.png">
+      <PackagePath>Assets\down-arrow-icon.png</PackagePath>
+      <Modified>2014-02-28T06:10:25.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Facebook.png">
+      <PackagePath>Assets\Facebook.png</PackagePath>
+      <Modified>2014-02-28T06:10:26.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\fb-icon.png">
+      <PackagePath>Assets\fb-icon.png</PackagePath>
+      <Modified>2014-02-28T06:10:24.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\female-thumbail.png">
+      <PackagePath>Assets\female-thumbail.png</PackagePath>
+      <Modified>2014-03-06T07:45:04.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Filter-Standard.png">
+      <PackagePath>Assets\Filter-Standard.png</PackagePath>
+      <Modified>2014-02-28T06:11:10.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\gplus-icon.png">
+      <PackagePath>Assets\gplus-icon.png</PackagePath>
+      <Modified>2014-02-28T06:10:27.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\grid-view.png">
+      <PackagePath>Assets\grid-view.png</PackagePath>
+      <Modified>2014-03-07T05:19:10.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Home.png">
+      <PackagePath>Assets\Home.png</PackagePath>
+      <Modified>2014-02-24T11:29:08.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\logo-color.png">
+      <PackagePath>Assets\logo-color.png</PackagePath>
+      <Modified>2014-02-28T06:10:25.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\logo-hub.png">
+      <PackagePath>Assets\logo-hub.png</PackagePath>
+      <Modified>2014-02-28T06:10:26.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-04-03T10:04:05.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Map-Location.png">
+      <PackagePath>Assets\Map-Location.png</PackagePath>
+      <Modified>2014-02-28T06:11:10.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\map-marker.png">
+      <PackagePath>Assets\map-marker.png</PackagePath>
+      <Modified>2014-03-12T06:36:57.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Media-Play.png">
+      <PackagePath>Assets\Media-Play.png</PackagePath>
+      <Modified>2014-02-28T06:10:26.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Message-Information.png">
+      <PackagePath>Assets\Message-Information.png</PackagePath>
+      <Modified>2014-02-28T06:10:25.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\new-article-details-img.png">
+      <PackagePath>Assets\new-article-details-img.png</PackagePath>
+      <Modified>2014-03-07T05:19:09.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\new-article-img-1.png">
+      <PackagePath>Assets\new-article-img-1.png</PackagePath>
+      <Modified>2014-03-07T05:19:10.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\new-article-img-2.png">
+      <PackagePath>Assets\new-article-img-2.png</PackagePath>
+      <Modified>2014-03-07T05:19:11.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\new-article-img-3.png">
+      <PackagePath>Assets\new-article-img-3.png</PackagePath>
+      <Modified>2014-03-07T05:19:10.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\new-article-img-4.png">
+      <PackagePath>Assets\new-article-img-4.png</PackagePath>
+      <Modified>2014-03-07T05:19:10.614</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\News.png">
+      <PackagePath>Assets\News.png</PackagePath>
+      <Modified>2014-02-24T15:22:54.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Note-Memo-01.png">
+      <PackagePath>Assets\Note-Memo-01.png</PackagePath>
+      <Modified>2014-02-28T06:11:10.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Pie-Chart.png">
+      <PackagePath>Assets\Pie-Chart.png</PackagePath>
+      <Modified>2014-02-24T11:41:05.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\profile-pic.png">
+      <PackagePath>Assets\profile-pic.png</PackagePath>
+      <Modified>2014-02-28T06:11:10.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\rate-empty-2.png">
+      <PackagePath>Assets\rate-empty-2.png</PackagePath>
+      <Modified>2014-02-25T06:26:37.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\rate-empty.png">
+      <PackagePath>Assets\rate-empty.png</PackagePath>
+      <Modified>2014-02-25T05:32:54.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\rate-filled.png">
+      <PackagePath>Assets\rate-filled.png</PackagePath>
+      <Modified>2014-02-25T05:32:54.227</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Rating.png">
+      <PackagePath>Assets\Rating.png</PackagePath>
+      <Modified>2014-02-28T06:11:10.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Reload.png">
+      <PackagePath>Assets\Reload.png</PackagePath>
+      <Modified>2014-02-28T06:10:26.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\right-arrow-icon.png">
+      <PackagePath>Assets\right-arrow-icon.png</PackagePath>
+      <Modified>2014-02-28T06:10:26.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Save.png">
+      <PackagePath>Assets\Save.png</PackagePath>
+      <Modified>2014-02-28T06:10:26.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Scale.png">
+      <PackagePath>Assets\Scale.png</PackagePath>
+      <Modified>2014-02-28T06:11:10.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\school-details-main-img.png">
+      <PackagePath>Assets\school-details-main-img.png</PackagePath>
+      <Modified>2014-02-24T18:34:42.189</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\school-logo-1.png">
+      <PackagePath>Assets\school-logo-1.png</PackagePath>
+      <Modified>2014-02-28T06:11:10.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\school-logo-2.png">
+      <PackagePath>Assets\school-logo-2.png</PackagePath>
+      <Modified>2014-03-04T11:05:05.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\school-logo-3.png">
+      <PackagePath>Assets\school-logo-3.png</PackagePath>
+      <Modified>2014-03-04T11:05:05.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\school-logo-4.png">
+      <PackagePath>Assets\school-logo-4.png</PackagePath>
+      <Modified>2014-03-04T11:05:05.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\school-logo-5.png">
+      <PackagePath>Assets\school-logo-5.png</PackagePath>
+      <Modified>2014-03-04T11:05:05.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\school-logo-6.png">
+      <PackagePath>Assets\school-logo-6.png</PackagePath>
+      <Modified>2014-03-04T11:05:05.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\shadow.png">
+      <PackagePath>Assets\shadow.png</PackagePath>
+      <Modified>2014-03-04T11:05:05.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Shape-Star2.png">
+      <PackagePath>Assets\Shape-Star2.png</PackagePath>
+      <Modified>2014-02-28T06:10:26.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-04-03T10:04:05.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\splash-screen.scale-100.png">
+      <PackagePath>Assets\splash-screen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-10T05:02:45.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\splash-screen.scale-140.png">
+      <PackagePath>Assets\splash-screen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-04-03T10:04:05.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\splash-screen.scale-180.png">
+      <PackagePath>Assets\splash-screen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-04-03T10:04:05.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-04-03T10:04:06.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\symantec-zoom-bg.png">
+      <PackagePath>Assets\symantec-zoom-bg.png</PackagePath>
+      <Modified>2014-04-02T12:51:17.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\Twitter-Bird.png">
+      <PackagePath>Assets\Twitter-Bird.png</PackagePath>
+      <Modified>2014-02-28T06:10:26.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\twitter-icon.png">
+      <PackagePath>Assets\twitter-icon.png</PackagePath>
+      <Modified>2014-02-28T06:10:26.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\User-Profile.png">
+      <PackagePath>Assets\User-Profile.png</PackagePath>
+      <Modified>2014-02-28T06:10:26.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\vs.png">
+      <PackagePath>Assets\vs.png</PackagePath>
+      <Modified>2014-03-20T14:43:33.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-04-03T10:04:05.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\img_1.jpg">
+      <PackagePath>Assets\img_1.jpg</PackagePath>
+      <Modified>2014-03-04T09:48:54.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\oakridge_bangalore_campus.jpg">
+      <PackagePath>Assets\oakridge_bangalore_campus.jpg</PackagePath>
+      <Modified>2014-03-04T09:48:54.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\oakridge_newton_campus.jpg">
+      <PackagePath>Assets\oakridge_newton_campus.jpg</PackagePath>
+      <Modified>2014-03-04T05:47:20.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Assets\oakridge_vizag_campus.jpg">
+      <PackagePath>Assets\oakridge_vizag_campus.jpg</PackagePath>
+      <Modified>2014-03-04T09:48:54.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2014-02-24T06:02:34.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2014-04-04T09:10:33.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2014-04-04T09:10:36.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\alumni.xaml">
+      <PackagePath>Usercontrols\alumni.xaml</PackagePath>
+      <Modified>2014-04-02T10:24:05.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\AlumniDetails.xaml">
+      <PackagePath>Usercontrols\AlumniDetails.xaml</PackagePath>
+      <Modified>2014-03-03T20:28:12.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\BookmarkedControl.xaml">
+      <PackagePath>Usercontrols\BookmarkedControl.xaml</PackagePath>
+      <Modified>2014-04-03T10:04:06.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\BottonAppBar.xaml">
+      <PackagePath>Usercontrols\BottonAppBar.xaml</PackagePath>
+      <Modified>2014-04-04T09:10:34.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\CompareSchoolsControl.xaml">
+      <PackagePath>Usercontrols\CompareSchoolsControl.xaml</PackagePath>
+      <Modified>2014-04-04T09:10:38.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\ErrorLocationPopUpUserControl.xaml">
+      <PackagePath>Usercontrols\ErrorLocationPopUpUserControl.xaml</PackagePath>
+      <Modified>2014-03-28T06:22:55.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\FeaturedSchoolsControl.xaml">
+      <PackagePath>Usercontrols\FeaturedSchoolsControl.xaml</PackagePath>
+      <Modified>2014-04-03T06:17:34.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\FindSchoolsAppBarOnGridClickControl.xaml">
+      <PackagePath>Usercontrols\FindSchoolsAppBarOnGridClickControl.xaml</PackagePath>
+      <Modified>2014-04-04T09:10:38.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\FindSchoolsBottomAppBarControl.xaml">
+      <PackagePath>Usercontrols\FindSchoolsBottomAppBarControl.xaml</PackagePath>
+      <Modified>2014-03-24T16:46:03.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\FindSchoolsControl.xaml">
+      <PackagePath>Usercontrols\FindSchoolsControl.xaml</PackagePath>
+      <Modified>2014-04-04T09:10:36.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\FindSchoolsRangeSliderUserControl.xaml">
+      <PackagePath>Usercontrols\FindSchoolsRangeSliderUserControl.xaml</PackagePath>
+      <Modified>2014-03-20T08:09:34.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\FindSchoolsRefineSearchResultsControl.xaml">
+      <PackagePath>Usercontrols\FindSchoolsRefineSearchResultsControl.xaml</PackagePath>
+      <Modified>2014-03-20T08:09:34.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\FindSchoolsSaveControl.xaml">
+      <PackagePath>Usercontrols\FindSchoolsSaveControl.xaml</PackagePath>
+      <Modified>2014-03-07T05:19:11.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\FindSchoolsSearchResultsControl.xaml">
+      <PackagePath>Usercontrols\FindSchoolsSearchResultsControl.xaml</PackagePath>
+      <Modified>2014-03-14T09:55:18.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\HubFeaturedSchoolsGridControl.xaml">
+      <PackagePath>Usercontrols\HubFeaturedSchoolsGridControl.xaml</PackagePath>
+      <Modified>2014-04-04T09:11:08.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\LocationPopupUserControl.xaml">
+      <PackagePath>Usercontrols\LocationPopupUserControl.xaml</PackagePath>
+      <Modified>2014-03-13T06:24:10.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\LocationUserControl.xaml">
+      <PackagePath>Usercontrols\LocationUserControl.xaml</PackagePath>
+      <Modified>2014-04-04T06:50:41.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\NewsArticleBottomAppBarControl.xaml">
+      <PackagePath>Usercontrols\NewsArticleBottomAppBarControl.xaml</PackagePath>
+      <Modified>2014-04-04T09:11:08.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\NewsArticlePostCommentControl.xaml">
+      <PackagePath>Usercontrols\NewsArticlePostCommentControl.xaml</PackagePath>
+      <Modified>2014-04-03T08:39:13.580</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\NewsArticlesControl.xaml">
+      <PackagePath>Usercontrols\NewsArticlesControl.xaml</PackagePath>
+      <Modified>2014-04-04T09:11:12.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\LoginControl.xaml">
+      <PackagePath>Usercontrols\LoginControl.xaml</PackagePath>
+      <Modified>2014-04-03T06:17:34.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\rating_usercontrol.xaml">
+      <PackagePath>Usercontrols\rating_usercontrol.xaml</PackagePath>
+      <Modified>2014-03-20T11:27:26.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\RegistrationControl.xaml">
+      <PackagePath>Usercontrols\RegistrationControl.xaml</PackagePath>
+      <Modified>2014-04-03T06:17:35.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\SchoolDetailsReviewControl.xaml">
+      <PackagePath>Usercontrols\SchoolDetailsReviewControl.xaml</PackagePath>
+      <Modified>2014-04-04T10:20:23.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\SchoolDetailsUserControl.xaml">
+      <PackagePath>Usercontrols\SchoolDetailsUserControl.xaml</PackagePath>
+      <Modified>2014-04-04T06:36:46.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\SearchResultsGridViewControl.xaml">
+      <PackagePath>Usercontrols\SearchResultsGridViewControl.xaml</PackagePath>
+      <Modified>2014-03-20T08:09:34.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\SearchResultsMapViewControl.xaml">
+      <PackagePath>Usercontrols\SearchResultsMapViewControl.xaml</PackagePath>
+      <Modified>2014-04-01T05:02:24.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\SeniorManagementTeamUserControl.xaml">
+      <PackagePath>Usercontrols\SeniorManagementTeamUserControl.xaml</PackagePath>
+      <Modified>2014-03-13T09:47:31.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\SurveyPageForHubControl.xaml">
+      <PackagePath>Usercontrols\SurveyPageForHubControl.xaml</PackagePath>
+      <Modified>2014-04-03T06:17:34.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\SurveyViewControl.xaml">
+      <PackagePath>Usercontrols\SurveyViewControl.xaml</PackagePath>
+      <Modified>2014-03-20T08:09:34.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\topAppBarControl.xaml">
+      <PackagePath>Usercontrols\topAppBarControl.xaml</PackagePath>
+      <Modified>2014-04-04T09:11:12.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Usercontrols\UserHeaderControl.xaml">
+      <PackagePath>Usercontrols\UserHeaderControl.xaml</PackagePath>
+      <Modified>2014-04-01T05:02:24.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Views\BookmarkedSchoolItemsPageView.xaml">
+      <PackagePath>Views\BookmarkedSchoolItemsPageView.xaml</PackagePath>
+      <Modified>2014-04-03T05:21:23.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Views\CompareschoolsView.xaml">
+      <PackagePath>Views\CompareschoolsView.xaml</PackagePath>
+      <Modified>2014-04-04T09:11:12.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Views\EditprofileView.xaml">
+      <PackagePath>Views\EditprofileView.xaml</PackagePath>
+      <Modified>2014-04-04T09:11:13.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Views\ForgotpasswordView.xaml">
+      <PackagePath>Views\ForgotpasswordView.xaml</PackagePath>
+      <Modified>2014-04-03T05:21:24.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Views\HubpageView.xaml">
+      <PackagePath>Views\HubpageView.xaml</PackagePath>
+      <Modified>2014-04-04T09:11:13.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Views\LoginView.xaml">
+      <PackagePath>Views\LoginView.xaml</PackagePath>
+      <Modified>2014-04-03T05:21:24.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Views\MyprofileView.xaml">
+      <PackagePath>Views\MyprofileView.xaml</PackagePath>
+      <Modified>2014-04-04T09:11:13.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Views\NewsArticlesItemDetailView.xaml">
+      <PackagePath>Views\NewsArticlesItemDetailView.xaml</PackagePath>
+      <Modified>2014-04-04T09:11:13.907</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Views\NewsArticlesItemsView.xaml">
+      <PackagePath>Views\NewsArticlesItemsView.xaml</PackagePath>
+      <Modified>2014-04-03T05:21:24.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Views\RegistrationView.xaml">
+      <PackagePath>Views\RegistrationView.xaml</PackagePath>
+      <Modified>2014-04-03T05:21:24.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Views\SchoolComparisonDetailsView.xaml">
+      <PackagePath>Views\SchoolComparisonDetailsView.xaml</PackagePath>
+      <Modified>2014-04-04T09:11:14.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Views\SchoolDetailsView.xaml">
+      <PackagePath>Views\SchoolDetailsView.xaml</PackagePath>
+      <Modified>2014-04-04T09:11:14.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Views\SearchresultsView.xaml">
+      <PackagePath>Views\SearchresultsView.xaml</PackagePath>
+      <Modified>2014-04-04T09:11:13.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\Views\SurveyView.xaml">
+      <PackagePath>Views\SurveyView.xaml</PackagePath>
+      <Modified>2014-04-03T05:21:25.560</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\Callisto.1.2.4\lib\winrt45\Callisto\themes\Generic.xaml">
+      <PackagePath>Callisto\themes\Generic.xaml</PackagePath>
+      <Modified>2014-03-20T08:14:35.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\ModernChart.1.0.0\lib\netcore45\De.TorstenMandelkow.MetroChart\Themes\Generic.xaml">
+      <PackagePath>De.TorstenMandelkow.MetroChart\Themes\Generic.xaml</PackagePath>
+      <Modified>2014-02-28T06:22:09.192</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:14.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:14.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\ImageButton\ImageButton.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageButton\ImageButton.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\InputDialog\InputDialog.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\InputDialog\InputDialog.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\TreeView\TreeView.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeView.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit\Themes\Generic.xaml">
+      <PackagePath>WinRTXamlToolkit\Themes\Generic.xaml</PackagePath>
+      <Modified>2014-04-03T06:18:15.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\NeuAdmin\Desktop\Schoolistics\Dev\Src\Neudesic.Schoolistics\Neudesic.Schoolistics\Neudesic.Schoolistics.WindowsStore\bin\x86\Local\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-04-04T09:59:51.955</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

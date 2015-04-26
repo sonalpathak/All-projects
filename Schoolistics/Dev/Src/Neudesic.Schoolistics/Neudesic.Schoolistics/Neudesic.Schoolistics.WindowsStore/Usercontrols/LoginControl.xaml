@@ -1,0 +1,57 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.LoginControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:callisto="using:Callisto.Controls"
+    xmlns:common="using:Neudesic.Schoolistics.WindowsStore.Common"
+    xmlns:rt="using:WinRTXamlToolkit.Controls"
+    mc:Ignorable="d"
+    d:DesignHeight="768"
+    d:DesignWidth="400">
+
+    <Grid>
+        <Grid.Background>
+            <SolidColorBrush Color="#d54b1a"></SolidColorBrush>
+        </Grid.Background>
+        <StackPanel Margin="2,72,30,0">
+            <StackPanel Orientation="Horizontal">
+                <Button VerticalAlignment="Center" Name="backButton" Click="GoBack" Height="30" Width="72">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="../Assets/back-button.png"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <TextBlock  VerticalAlignment="Center" FontSize="30">Login</TextBlock>
+            </StackPanel>
+            <StackPanel Margin="28,50,30,15">
+                <callisto:WatermarkTextBox x:Name="usernametextBlock" Watermark="Username*"  InputScope="AlphanumericFullWidth" Text="{Binding Username,Mode=TwoWay}"  Height="9" />                
+                <rt:WatermarkPasswordBox WatermarkText="Password*"  x:Name="passwordBox" Margin="0,10,0,0"  Height="9" />                
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <CheckBox Content="Remember me" x:Name="rememberMeCheckBox" VerticalAlignment="Center" Height="30" Margin="28,0,30,0"/>
+                <ProgressRing Margin="0,0,10,0" Visibility="{Binding LoginProgressRingVisibility,Mode=TwoWay,Converter={StaticResource booleanToVisibilityConverter}}" ></ProgressRing>
+                <Button x:Name="Login" IsEnabled="{Binding LoginButtonEnabled}" Tapped="Login_Tapped" BorderBrush="#FFCC00" Content="Log In" Width="126" Height="39"  Background="#FFCC00" Foreground="#FFFFFF" FontSize="14"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="28,10,0,0">
+                <TextBlock FontSize="14">
+            			<Run Text="Or login with:"/>
+                </TextBlock>
+                <TextBlock Margin="110,0,0,0 " RenderTransformOrigin="1.018,0.357" Width="152" FontSize="14" >
+            			<Run Text="Don't have an account?"/>
+                </TextBlock>
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="32" Margin="28,11,0,0">
+                <Image x:Name="facebookLogin" Tapped="facebookLogin_Tapped" Source="../Assets/fb-icon.png" />
+                <Image  x:Name="TwitterImage" Tapped="twitterLogin_Tapped" Source="../Assets/twitter-icon.png" Margin="10,0,10,0" />
+                <Image x:Name="googleLogin" Tapped="google_Tapped" Source="../Assets/gplus-icon.png" />
+                <Button x:Name="signUp" Tapped="signUp_Tapped" Margin="60,-3,0,-4" BorderBrush="#FFCC00" Content="Sign up" Width="124" Height="39"  Background="#FFCC00" Foreground="#FFFFFF" FontSize="14"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

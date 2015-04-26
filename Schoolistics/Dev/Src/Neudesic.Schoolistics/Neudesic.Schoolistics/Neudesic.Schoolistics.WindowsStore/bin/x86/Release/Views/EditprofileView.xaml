@@ -1,0 +1,212 @@
+﻿<views:BaseView
+    x:Name="pageRoot"
+    x:Class="Neudesic.Schoolistics.WindowsStore.Views.EditprofileView"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:common2="using:WindowsStoreTemplate.Common"
+    xmlns:views="using:Neudesic.Schoolistics.WindowsStore.Views"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">Edit Profile</x:String>
+        <DataTemplate x:Key="genderItemtemplate">
+            <TextBlock Text="{Binding}"></TextBlock>
+        </DataTemplate>
+        <DataTemplate x:Key="relationItemtemplate">
+            <TextBlock Text="{Binding}"></TextBlock>
+        </DataTemplate>
+        <DataTemplate x:Key="educationItemtemplate">
+            <TextBlock Text="{Binding}"></TextBlock>
+        </DataTemplate>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}">
+        <Grid.Background>
+            <ImageBrush ImageSource="ms-appx:///Assets/background-image.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='8' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}"
+                    Style="{StaticResource BackButtonStyle}" />
+            <!--<Button Content="" HorizontalAlignment="Left" Height="42" Margin="40,0,0,0" Style="{StaticResource Back_btn}" Width="42"/>-->
+
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" FontSize="30" FontWeight="Normal" 
+                       Style="{StaticResource PageHeaderTextStyle}" />
+        </Grid>
+        <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Vertical" Margin="120,0,0,0" >
+            <StackPanel Orientation="Vertical"  Margin="0,0,0,20">
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,05" >
+                    <TextBlock Width="130" Margin="0,20,0,0" FontSize="15" >User Name</TextBlock>
+                    <TextBox x:ConnectionId='7'   x:Name="UsernameTextBox"                                       Height="47" Width="436"  Padding="5,10,0,0" Text="{Binding EditProfileDetails.Username, Mode=TwoWay}" ></TextBox>
+                </StackPanel>
+                <StackPanel  Margin="130,0,0,0" >
+                    <Border Height="15">
+                        <TextBlock  x:Name="Username" Visibility="Collapsed"></TextBlock>
+                    </Border>
+                </StackPanel>
+            </StackPanel>
+            <!--<StackPanel Orientation="Vertical"  Margin="0,0,0,20">
+
+                <StackPanel Orientation="Horizontal"  Margin="0,0,0,05">
+                    <TextBlock Width="130"  Margin="0,20,0,0" FontSize="15">Password</TextBlock>
+                    <PasswordBox x:Name="PasswordBox" LostFocus="PasswordBox_LostFocus"   Height="47" Width="436" Padding="5,10,0,0" Password="{Binding EditProfileDetails.Password, Mode=TwoWay}"></PasswordBox>
+                </StackPanel>
+                <StackPanel  Margin="130,0,0,0" >
+                    <Border Height="15">
+                    <TextBlock  x:Name="Password" Visibility="Collapsed"></TextBlock>
+                    </Border>
+                </StackPanel>
+            </StackPanel>-->
+            <StackPanel Orientation="Vertical"  Margin="0,0,0,20">
+                <StackPanel Orientation="Horizontal"  Margin="0,0,0,5">
+                    <TextBlock Width="130"  Margin="0,20,0,0" FontSize="15">New Password</TextBlock>
+                    <PasswordBox x:ConnectionId='6' x:Name="NewPasswordBox"                                      Height="47" Width="436" Padding="5,10,0,0" ></PasswordBox>
+                </StackPanel>
+                <StackPanel  Margin="130,0,0,0" >
+                    <Border Height="15">
+                        <TextBlock  x:Name="NewPassword" Visibility="Collapsed"></TextBlock>
+                    </Border>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Vertical"  Margin="0,0,0,20">
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                    <TextBlock Width="130"  Margin="0,20,0,0" FontSize="15">Confirm Password</TextBlock>
+                    <PasswordBox x:ConnectionId='5' x:Name="ConfirmPasswordBox"                                          Height="47" Width="436" Padding="5,10,0,0" ></PasswordBox>
+                </StackPanel>
+                <StackPanel  Margin="130,0,0,0" >
+                    <Border Height="15">
+                        <TextBlock  x:Name="ConfirmPassword" Visibility="Collapsed"></TextBlock>
+                    </Border>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,40">
+                <TextBlock Width="130"  Margin="0,20,0,0" FontSize="15">DOB</TextBlock>
+                <TextBox  Height="47" Width="436" Padding="5,10,0,0" Text="{Binding EditProfileDetails.DOB, Mode=TwoWay}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Vertical"  Margin="0,0,0,20">
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,05">
+                    <TextBlock Width="130"  Margin="0,20,0,0" FontSize="15">Email ID</TextBlock>
+                    <TextBox x:ConnectionId='4'  x:Name="EmailTextBox"                                    Height="47" Width="436" Padding="5,10,0,0" Text="{Binding EditProfileDetails.Email, Mode=TwoWay}"></TextBox>
+                    
+                </StackPanel>
+                <StackPanel  Margin="130,0,0,0" >
+                    <Border Height="15">
+                        <TextBlock x:Name="Email"  Visibility="Collapsed"></TextBlock>
+                    </Border>
+                </StackPanel>
+                
+            </StackPanel>
+            <StackPanel   Margin="130,0,0,0">
+                <Border Height="20">
+                    <TextBlock   FontSize="18" x:Name="PasswordMissmatchMessage" Visibility="Collapsed"></TextBlock>
+                </Border>
+                
+            </StackPanel>
+
+
+        </StackPanel>
+       
+        <StackPanel Grid.Row="1" Orientation="Vertical"   Grid.Column="1"  Margin="30,0,0,0">
+            <StackPanel Orientation="Horizontal"   Margin="0,0,0,25">
+                <TextBlock Width="120"  Margin="0,67,0,0" FontSize="15">Image</TextBlock>
+                <Image x:Name="sou" Source="ms-appx:///Assets/female-thumbail.png" Width="150" Height="150" />
+               
+                <HyperlinkButton x:ConnectionId='3'                     >
+                    <TextBlock Foreground="White">
+                    <Underline>Upload your profile picture</Underline>
+                    </TextBlock>
+
+                </HyperlinkButton>
+            </StackPanel>
+            <StackPanel Orientation="Vertical"  Margin="0,0,0,20">
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,05">
+                    <TextBlock Width="120"  Margin="0,17,0,0" FontSize="15">Phone No</TextBlock>
+                    <TextBox x:ConnectionId='2' x:Name="PhoneNoTextBox"                                      Height="47" Width="436" Padding="5,10,0,0" Text="{Binding EditProfileDetails.PhoneNo, Mode=TwoWay}"></TextBox>
+                </StackPanel>
+                <StackPanel  Margin="130,0,0,0">
+                    <Border Height="15">
+                        <TextBlock x:Name="PhoneNo" Visibility="Collapsed" ></TextBlock>
+                    </Border>
+                </StackPanel>
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,40">
+                <TextBlock Width="120"  Margin="0,17,0,0" FontSize="15">Occupation</TextBlock>
+                <TextBox  Height="47" Width="436" Padding="5,10,0,0" Text="{Binding EditProfileDetails.Occupation, Mode=TwoWay}"></TextBox>
+            </StackPanel>
+            <!--<StackPanel Orientation="Horizontal" Margin="0,0,0,40">
+                <TextBlock Width="120"  Margin="0,17,0,0" FontSize="15">Relation</TextBlock>
+                <ComboBox x:Name="comboBox2"  ItemTemplate="{StaticResource relationItemtemplate }" ItemsSource="{Binding RelationDetails}" SelectedItem="{Binding EditProfileDetails.Relation,Mode=TwoWay}"   Height="47" Width="436"  >
+                </ComboBox>
+            </StackPanel>-->
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,40">
+                <TextBlock Width="120"  Margin="0,17,0,0" FontSize="15">Gender</TextBlock>
+                <ComboBox x:Name="comboBox3" ItemTemplate="{StaticResource genderItemtemplate }" ItemsSource="{Binding GenderDetails}" SelectedItem="{Binding EditProfileDetails.Gender,Mode=TwoWay}"  Height="47" Width="436"  >
+
+                </ComboBox>
+            </StackPanel>
+
+
+
+            <Button x:ConnectionId='1' x:Name="UpdateButton" Background="#ff9900" BorderBrush="#ff9900"  BorderThickness="1" Height="47" Width="260" Margin="120,0,0,0"                       Content="Update"/>
+        </StackPanel>
+
+       
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape" />
+                <VisualState x:Name="Filled" />
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton"
+                                                       Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}" />
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton"
+                                                       Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}" />
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle"
+                                                       Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}" />
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</views:BaseView>
+

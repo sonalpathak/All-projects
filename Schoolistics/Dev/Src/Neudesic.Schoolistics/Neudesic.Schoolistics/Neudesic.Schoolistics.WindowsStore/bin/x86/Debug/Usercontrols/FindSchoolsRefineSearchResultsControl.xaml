@@ -1,0 +1,45 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.FindSchoolsRefineSearchResultsControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#D54b1A"  Width="396">
+
+        
+            <StackPanel>
+            <StackPanel Orientation="Horizontal" Height="80" Margin="0,30,0,0">
+                <Button x:Name="backButton"
+                    Style="{StaticResource BackButtonStyle}" />
+                <TextBlock Text="Refine Search Results" Margin="-30,3,0,0" FontFamily="Open sans" FontSize="29"></TextBlock>
+            </StackPanel>
+            <Border Height="1" Background="white" Opacity="0.1" Margin="0,0,0,20"/>
+            <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
+                <TextBlock Text="Mid day meals" FontFamily="Open sans" FontSize="16" Height="20" HorizontalAlignment="Left" Width="170"></TextBlock>
+                <ToggleSwitch Name="midDayMealsSwitch" IsOn="{Binding MidDayMeals,Mode=TwoWay}" OffContent="" OnContent=""  />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
+                <TextBlock Text="Plyaground" FontFamily="Open sans" FontSize="16" Height="20" HorizontalAlignment="Left" Width="170"></TextBlock>
+                <ToggleSwitch Name="playgroundSwitch" IsOn="{Binding PlayGround,Mode=TwoWay}" OffContent="" OnContent=""/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
+                <TextBlock Text="Digital Classroom" FontFamily="Open sans" FontSize="16" Height="20" HorizontalAlignment="Left" Width="170"></TextBlock>
+                <ToggleSwitch Name="digitalClassroomSwitch" IsOn="{Binding DigitalClassroom,Mode=TwoWay}" OffContent="" OnContent="" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
+                <TextBlock Text="Day Boarding" FontFamily="Open sans" FontSize="16" Height="20" HorizontalAlignment="Left" Width="170"></TextBlock>
+                <ToggleSwitch Name="dayBoardingSwitch" IsOn="{Binding DayBoarding,Mode=TwoWay}" OffContent="" OnContent=""/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
+                <TextBlock Text="Transportation Facility" FontFamily="Open sans" FontSize="16" Height="20" HorizontalAlignment="Left" Width="170"></TextBlock>
+                <ToggleSwitch Name="transportationSwitch" IsOn="{Binding TransportationFacility,Mode=TwoWay}" OffContent="" OnContent=""/>
+            </StackPanel>
+            <Button BorderBrush="#FFCC00" Command="{Binding RefineCommand}" Content="Refine" FontFamily="Open sans" FontSize="14" HorizontalAlignment="Right" Width="150" Height="40" Background="#FFCC00" Margin="0,0,40,0"></Button>
+        </StackPanel>
+        
+    </Grid>
+</UserControl>
+

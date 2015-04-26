@@ -1,0 +1,169 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.SchoolDetailsUserControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+       xmlns:locals="using:Neudesic.Schoolistics.WindowsStore.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:common2="using:Neudesic.Schoolistics.WindowsStore.Common"
+    mc:Ignorable="d"
+    
+   >
+    <UserControl.Resources>
+        <!--<locals:ratingconverter></locals:ratingconverter>-->
+    </UserControl.Resources>
+    <!--<Grid DataContext="{Binding Details,Mode=TwoWay}" >-->
+        <Grid>
+        
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="300"></ColumnDefinition>
+            <ColumnDefinition Width="400"></ColumnDefinition>
+            <ColumnDefinition Width="500"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+        <!--this is the stack panel for first row and column-->
+        <Border Width="300" Grid.Column="0"  Padding="20,0,20,20" Background="#f9faf9" Margin="0,0,0,0" Height="520" VerticalAlignment="Top">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Vertical">
+
+                    <Image Source="{Binding Details.SchoolLogo,Mode=OneWay,Converter={StaticResource Logoconverter}}" Stretch="None"></Image>
+                    <Border Height="1" Width="260" Background="#000000" Opacity="0.1" Margin="0,25"/>
+                </StackPanel>
+                <!--../Assets/school-logo-1.png-->
+
+                <StackPanel>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Row="0" Text="Overall rating" Foreground="#505050" FontSize="16"></TextBlock>
+
+
+
+                        <StackPanel Grid.Row="0" Grid.Column="1">
+                            <TextBlock Text="Your rating" Foreground="#505050" FontSize="16" TextAlignment="Right"></TextBlock>
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Grid.Column="0" Margin="-20,0,10,0">
+                            <Image Width="100" Source="{Binding Details.Rating,Mode=TwoWay,Converter={StaticResource ImageConverter}}"  ></Image>
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Grid.Column="1" Margin="30,0,0,0">
+                            <Image Width="100" Source="{Binding MyRating,Mode=TwoWay,Converter={StaticResource ImageConverter}}" ></Image>
+                        </StackPanel>
+
+                    </Grid>
+                    <Border Height="1" Width="260" Background="#000000" Opacity="0.1" Margin="0,20"/>
+                </StackPanel>
+
+                <StackPanel>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Row="0">
+                            <TextBlock Text="School Strength" Foreground="#505050" FontSize="16"></TextBlock>
+                        </StackPanel>
+                        <StackPanel Grid.Row="0" Grid.Column="1">
+                            <TextBlock Text="Classes" Foreground="#505050" FontSize="16" TextAlignment="Right"></TextBlock>
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Grid.Column="0">
+                            <TextBlock Text="{Binding Details.SchoolStrength}" Foreground="#d54b1a" FontSize="30"></TextBlock>
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Grid.Column="1">
+                            <StackPanel Orientation="Horizontal" >
+
+                                <!--<TextBlock Text="LKG-10" Foreground="#d54b1a" FontSize="30" TextAlignment="Right"></TextBlock>-->
+                                <TextBlock Text="{Binding Details.LowerClassRange}" FontSize="30" Foreground="#d54b1a" Margin="35,0,0,0" TextAlignment="Right"/>
+                                <TextBlock Text="-" FontSize="30" Foreground="#d54b1a" Margin="0,0,0,0" TextAlignment="Right"/>
+                                <TextBlock Text="{Binding Details.UpperClassRange}" FontSize="30" Foreground="#d54b1a" TextAlignment="Right"/>
+                            </StackPanel>
+
+                        </StackPanel>
+                    </Grid>
+                    <Border Height="1" Width="260" Background="#000000" Opacity="0.1" Margin="0,20"/>
+                </StackPanel>
+
+                <StackPanel>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Row="0">
+                            <TextBlock Text="Accredition" Foreground="#505050" FontSize="16"></TextBlock>
+                        </StackPanel>
+                        <StackPanel Grid.Row="0" Grid.Column="1">
+                            <TextBlock Text="Distance" Foreground="#505050" FontSize="16" TextAlignment="Right"></TextBlock>
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Grid.Column="0">
+                            <TextBlock Text="{Binding Details.Accreditation}" Foreground="#d54b1a" FontSize="30"></TextBlock>
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Grid.Column="1">
+                            <TextBlock Text="8Kms" Foreground="#d54b1a" FontSize="30" TextAlignment="Right"></TextBlock>
+                        </StackPanel>
+
+                    </Grid>
+                    <Border Height="1" Width="260" Background="#000000" Opacity="0" Margin="0,12"/>
+                </StackPanel>
+
+                <StackPanel>
+                    <HyperlinkButton NavigateUri="{Binding Details.WebsiteLink}" BorderBrush="#d54b1a"  Width="260" Foreground="#d54b1a" >Visit Website</HyperlinkButton>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+
+        <!--this stack panel is for complete image column-->
+        <StackPanel Grid.Column="1" Margin="0,0,0,0" Height="520" VerticalAlignment="Top">
+            <Image Source="ms-appx:///Assets/school-details-main-img.png"></Image>
+            <!--<StackPanel.Background>
+                <ImageBrush ImageSource="../Assets/school-details-main-img.png" Stretch="Fill"></ImageBrush>
+            </StackPanel.Background>-->
+            <!--<Image Source="ms-appx:///Assets/school-details-main-img.png" Stretch="Fill"></Image>-->
+            <!--<StackPanel.Background>
+                <ImageBrush ImageSource="../Assets/school-details-main-img.png"></ImageBrush>
+            </StackPanel.Background>-->
+
+        </StackPanel>
+
+        <!--this is for text-->
+        <StackPanel Grid.Column="2" Margin="0,0,0,0" Height="520" Background="White" VerticalAlignment="Top">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition ></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0">
+                    <TextBlock Text="ABOUT US" Foreground="#056e88 " FontSize="24" FontWeight="Bold" Margin="40,0,0,0" FontFamily="OPEN SANS"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="1">
+                    <TextBlock Text="{Binding Details.Description,Mode=TwoWay}" 
+ TextTrimming="WordEllipsis" TextAlignment="Justify"  FontSize="16" Foreground="Black" TextWrapping="Wrap" Margin="40,15,0,0" FontFamily="OPEN SANS" LineHeight="16" ></TextBlock>
+                </StackPanel>
+
+            </Grid>
+
+        </StackPanel>
+
+    </Grid>
+
+
+</UserControl>

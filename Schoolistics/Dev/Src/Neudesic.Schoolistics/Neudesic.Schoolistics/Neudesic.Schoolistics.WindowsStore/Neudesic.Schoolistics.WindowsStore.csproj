@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{082250FB-CE17-4377-8254-41920BB87298}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Neudesic.Schoolistics.WindowsStore</RootNamespace>
+    <AssemblyName>Neudesic.Schoolistics.WindowsStore</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>StoreTemplate_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>C:\Windows 8 Apps\Schoolistics Material\Builds\</AppxPackageDir>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Bootstrap\MessengerPluginBootstrap.cs" />
+    <Compile Include="Common\BindableBase.cs" />
+    <Compile Include="Common\BooleanNegationConverter.cs" />
+    <Compile Include="Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Common\LayoutAwarePage.cs" />
+    <Compile Include="Common\PasswordBoxBehaviour.cs" />
+    <Compile Include="Common\RichTextColumns.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="Converters\BooleanToImageConverter.cs" />
+    <Compile Include="Converters\BooleantoVisibility.cs" />
+    <Compile Include="Converters\ConverterToDisplayTwoPopularSchools.cs" />
+    <Compile Include="Converters\FeaturedSchoolsConverter.cs" />
+    <Compile Include="Converters\IntToImageConverter.cs" />
+    <Compile Include="Converters\PopularComparisonsGridViewItemVisibilityConverter.cs" />
+    <Compile Include="Converters\FindSchoolsImageStringToVisibilityConverter.cs" />
+    <Compile Include="Converters\FindSchoolsImageToIntConverter.cs" />
+    <Compile Include="Converters\FindSchoolsIntToImageConverter.cs" />
+    <Compile Include="Converters\NewsArticleIntToImageConverter.cs" />
+    <Compile Include="Converters\FindSchoolsRatingStringToVisibilityConverter.cs" />
+    <Compile Include="Converters\PopularComparisonsImageConverter.cs" />
+    <Compile Include="Converters\SchoolCountToTextConverter.cs" />
+    <Compile Include="Converters\SchoolDetailsImageToIntConverter.cs" />
+    <Compile Include="Converters\SchoolDetailsLogoConverter.cs" />
+    <Compile Include="Converters\SearchResultsBooleanToVisibilityConverter.cs" />
+    <Compile Include="Converters\UserProfilePicConverter.cs" />
+    <Compile Include="Helpers\AppData.cs" />
+    <Compile Include="Helpers\UserPreferences.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setup.cs" />
+    <Compile Include="Usercontrols\alumni.xaml.cs">
+      <DependentUpon>alumni.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\AlumniDetails.xaml.cs">
+      <DependentUpon>AlumniDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\BookmarkedControl.xaml.cs">
+      <DependentUpon>BookmarkedControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\BottonAppBar.xaml.cs">
+      <DependentUpon>BottonAppBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\CompareSchoolsControl.xaml.cs">
+      <DependentUpon>CompareSchoolsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\ErrorLocationPopUpUserControl.xaml.cs">
+      <DependentUpon>ErrorLocationPopUpUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\FeaturedSchoolsControl.xaml.cs">
+      <DependentUpon>FeaturedSchoolsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\FindSchoolsAppBarOnGridClickControl.xaml.cs">
+      <DependentUpon>FindSchoolsAppBarOnGridClickControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\FindSchoolsBottomAppBarControl.xaml.cs">
+      <DependentUpon>FindSchoolsBottomAppBarControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\FindSchoolsControl.xaml.cs">
+      <DependentUpon>FindSchoolsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\FindSchoolsRangeSliderUserControl.xaml.cs">
+      <DependentUpon>FindSchoolsRangeSliderUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\FindSchoolsRefineSearchResultsControl.xaml.cs">
+      <DependentUpon>FindSchoolsRefineSearchResultsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\FindSchoolsSaveControl.xaml.cs">
+      <DependentUpon>FindSchoolsSaveControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\FindSchoolsSearchResultsControl.xaml.cs">
+      <DependentUpon>FindSchoolsSearchResultsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\HubFeaturedSchoolsGridControl.xaml.cs">
+      <DependentUpon>HubFeaturedSchoolsGridControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\LocationPopupUserControl.xaml.cs">
+      <DependentUpon>LocationPopupUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\LocationUserControl.xaml.cs">
+      <DependentUpon>LocationUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\LoginControl.xaml.cs">
+      <DependentUpon>LoginControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\NewsArticleBottomAppBarControl.xaml.cs">
+      <DependentUpon>NewsArticleBottomAppBarControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\NewsArticlePostCommentControl.xaml.cs">
+      <DependentUpon>NewsArticlePostCommentControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\NewsArticlesControl.xaml.cs">
+      <DependentUpon>NewsArticlesControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\rating_usercontrol.xaml.cs">
+      <DependentUpon>rating_usercontrol.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\RegistrationControl.xaml.cs">
+      <DependentUpon>RegistrationControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\SchoolDetailsReviewControl.xaml.cs">
+      <DependentUpon>SchoolDetailsReviewControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\SchoolDetailsUserControl.xaml.cs">
+      <DependentUpon>SchoolDetailsUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\SearchResultsGridViewControl.xaml.cs">
+      <DependentUpon>SearchResultsGridViewControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\SearchResultsMapViewControl.xaml.cs">
+      <DependentUpon>SearchResultsMapViewControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\SurveyPageForHubControl.xaml.cs">
+      <DependentUpon>SurveyPageForHubControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\SurveyViewControl.xaml.cs">
+      <DependentUpon>SurveyViewControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\SeniorManagementTeamUserControl.xaml.cs">
+      <DependentUpon>SeniorManagementTeamUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\topAppBarControl.xaml.cs">
+      <DependentUpon>topAppBarControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrols\UserHeaderControl.xaml.cs">
+      <DependentUpon>UserHeaderControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BaseView.cs" />
+    <Compile Include="Views\BookmarkedSchoolItemsPageView.xaml.cs">
+      <DependentUpon>BookmarkedSchoolItemsPageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CompareschoolsView.xaml.cs">
+      <DependentUpon>CompareschoolsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditprofileView.xaml.cs">
+      <DependentUpon>EditprofileView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ForgotpasswordView.xaml.cs">
+      <DependentUpon>ForgotpasswordView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HubpageView.xaml.cs">
+      <DependentUpon>HubpageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginView.xaml.cs">
+      <DependentUpon>LoginView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MyprofileView.xaml.cs">
+      <DependentUpon>MyprofileView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewsArticlesItemDetailView.xaml.cs">
+      <DependentUpon>NewsArticlesItemDetailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewsArticlesItemsView.xaml.cs">
+      <DependentUpon>NewsArticlesItemsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RegistrationView.xaml.cs">
+      <DependentUpon>RegistrationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SchoolComparisonDetailsView.xaml.cs">
+      <DependentUpon>SchoolComparisonDetailsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SchoolDetailsView.xaml.cs">
+      <DependentUpon>SchoolDetailsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SearchresultsView.xaml.cs">
+      <DependentUpon>SearchresultsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SurveyView.xaml.cs">
+      <DependentUpon>SurveyView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="packages.config" />
+    <None Include="StoreTemplate_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\1-5.png" />
+    <Content Include="Assets\1-star-rating.png" />
+    <Content Include="Assets\1-star.png" />
+    <Content Include="Assets\2-5.png" />
+    <Content Include="Assets\2-star-rating.png" />
+    <Content Include="Assets\2-star.png" />
+    <Content Include="Assets\3-5.png" />
+    <Content Include="Assets\3-star-rating.png" />
+    <Content Include="Assets\3-star.png" />
+    <Content Include="Assets\4-5.png" />
+    <Content Include="Assets\4-star-rating.png" />
+    <Content Include="Assets\4-star.png" />
+    <Content Include="Assets\5-star-rating.png" />
+    <Content Include="Assets\5-star.png" />
+    <Content Include="Assets\add-icon.png" />
+    <Content Include="Assets\alumni-bg.png" />
+    <Content Include="Assets\back-button-hover.png" />
+    <Content Include="Assets\back-button.png" />
+    <Content Include="Assets\background-image.png" />
+    <Content Include="Assets\Bookmark-New.png" />
+    <Content Include="Assets\Bookmark.png" />
+    <Content Include="Assets\Boy-01.png" />
+    <Content Include="Assets\Check.png" />
+    <Content Include="Assets\Command-Reset.png" />
+    <Content Include="Assets\compare-no.png" />
+    <Content Include="Assets\compare-tick.png" />
+    <Content Include="Assets\Data-Export.png" />
+    <Content Include="Assets\Document-Download-01.png" />
+    <Content Include="Assets\current-location-icon.png" />
+    <Content Include="Assets\down-arrow-icon.png" />
+    <Content Include="Assets\Facebook.png" />
+    <Content Include="Assets\fb-icon.png" />
+    <Content Include="Assets\female-thumbail.png" />
+    <Content Include="Assets\Filter-Standard.png" />
+    <Content Include="Assets\gplus-icon.png" />
+    <Content Include="Assets\grid-view.png" />
+    <Content Include="Assets\Home.png" />
+    <Content Include="Assets\img_1.jpg" />
+    <Content Include="Assets\logo-color.png" />
+    <Content Include="Assets\logo-hub.png" />
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\Map-Location.png" />
+    <Content Include="Assets\map-marker.png" />
+    <Content Include="Assets\Media-Play.png" />
+    <Content Include="Assets\Message-Information.png" />
+    <Content Include="Assets\new-article-details-img.png" />
+    <Content Include="Assets\new-article-img-1.png" />
+    <Content Include="Assets\new-article-img-2.png" />
+    <Content Include="Assets\new-article-img-3.png" />
+    <Content Include="Assets\new-article-img-4.png" />
+    <Content Include="Assets\News.png" />
+    <Content Include="Assets\Note-Memo-01.png" />
+    <Content Include="Assets\oakridge_bangalore_campus.jpg" />
+    <Content Include="Assets\oakridge_newton_campus.jpg" />
+    <Content Include="Assets\oakridge_vizag_campus.jpg" />
+    <Content Include="Assets\Pie-Chart.png" />
+    <Content Include="Assets\profile-pic.png" />
+    <Content Include="Assets\rate-empty-2.png" />
+    <Content Include="Assets\rate-empty.png" />
+    <Content Include="Assets\rate-filled.png" />
+    <Content Include="Assets\Rating.png" />
+    <Content Include="Assets\Reload.png" />
+    <Content Include="Assets\right-arrow-icon.png" />
+    <Content Include="Assets\Save.png" />
+    <Content Include="Assets\Scale.png" />
+    <Content Include="Assets\school-details-main-img.png" />
+    <Content Include="Assets\school-logo-1.png" />
+    <Content Include="Assets\school-logo-2.png" />
+    <Content Include="Assets\school-logo-3.png" />
+    <Content Include="Assets\school-logo-4.png" />
+    <Content Include="Assets\school-logo-5.png" />
+    <Content Include="Assets\school-logo-6.png" />
+    <Content Include="Assets\shadow.png" />
+    <Content Include="Assets\Shape-Star2.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\splash-screen.scale-100.png" />
+    <Content Include="Assets\splash-screen.scale-140.png" />
+    <Content Include="Assets\splash-screen.scale-180.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\symantec-zoom-bg.png" />
+    <Content Include="Assets\Twitter-Bird.png" />
+    <Content Include="Assets\twitter-icon.png" />
+    <Content Include="Assets\User-Profile.png" />
+    <Content Include="Assets\vs.png" />
+    <Content Include="Assets\WideLogo.scale-100.png" />
+    <Content Include="Common\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Common\StandardStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Usercontrols\alumni.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Usercontrols\AlumniDetails.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Usercontrols\BookmarkedControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\BottonAppBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Usercontrols\CompareSchoolsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\ErrorLocationPopUpUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\FeaturedSchoolsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\FindSchoolsAppBarOnGridClickControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\FindSchoolsBottomAppBarControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\FindSchoolsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\FindSchoolsRangeSliderUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\FindSchoolsRefineSearchResultsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\FindSchoolsSaveControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\FindSchoolsSearchResultsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\HubFeaturedSchoolsGridControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\LocationPopupUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\LocationUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\NewsArticleBottomAppBarControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\NewsArticlePostCommentControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\NewsArticlesControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Usercontrols\LoginControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\rating_usercontrol.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Usercontrols\RegistrationControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Usercontrols\SchoolDetailsReviewControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\SchoolDetailsUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Usercontrols\SearchResultsGridViewControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\SearchResultsMapViewControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\SeniorManagementTeamUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Usercontrols\SurveyPageForHubControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\SurveyViewControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\topAppBarControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrols\UserHeaderControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\BookmarkedSchoolItemsPageView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CompareschoolsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EditprofileView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ForgotpasswordView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\HubpageView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LoginView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MyprofileView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewsArticlesItemDetailView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewsArticlesItemsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\RegistrationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SchoolComparisonDetailsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SchoolDetailsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SearchresultsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SurveyView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Callisto">
+      <HintPath>..\..\packages\Callisto.1.2.4\lib\winrt45\Callisto.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.CrossCore">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\netcore45\Cirrious.CrossCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.CrossCore.WindowsStore">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\netcore45\Cirrious.CrossCore.WindowsStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.1.1\lib\netcore45\Cirrious.MvvmCross.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Localization">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.CrossCore.3.1.1\lib\netcore45\Cirrious.MvvmCross.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Messenger">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.Plugin.Messenger.3.1.1\lib\netcore45\Cirrious.MvvmCross.Plugins.Messenger.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.WindowsStore">
+      <HintPath>..\..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.1.1\lib\netcore45\Cirrious.MvvmCross.WindowsStore.dll</HintPath>
+    </Reference>
+    <Reference Include="De.TorstenMandelkow.MetroChart">
+      <HintPath>..\..\packages\ModernChart.1.0.0\lib\netcore45\De.TorstenMandelkow.MetroChart.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook">
+      <HintPath>..\..\packages\Facebook.6.4.2\lib\win8\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Newtonsoft.Json.6.0.1\lib\netcore45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="TwitterRtLibrary">
+      <HintPath>..\..\packages\TwitterRt.1.0.4\lib\winrt45\TwitterRtLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="WinRTXamlToolkit">
+      <HintPath>..\..\packages\winrtxamltoolkit.1.6.0.4\lib\netcore45\WinRTXamlToolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Neudesic.Schoolistics.Core\Neudesic.Schoolistics.Core.csproj">
+      <Project>{747706f4-ecbf-4d50-8d72-b0ddcc18395c}</Project>
+      <Name>Neudesic.Schoolistics.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Bing.Maps.Xaml, Version=1.113.0601.2">
+      <Name>Bing Maps for C#, C++, or Visual Basic</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Local|AnyCPU'">
+    <OutputPath>bin\Local\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Local|ARM'">
+    <OutputPath>bin\ARM\Local\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Local|x64'">
+    <OutputPath>bin\x64\Local\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Local|x86'">
+    <OutputPath>bin\x86\Local\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

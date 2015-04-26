@@ -1,0 +1,202 @@
+﻿<views:BaseView
+    x:Name="pageRoot"
+    x:Class="Neudesic.Schoolistics.WindowsStore.Views.HubpageView"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:views="using:Neudesic.Schoolistics.WindowsStore.Views"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:rt="using:WinRTXamlToolkit.Controls"
+    mc:Ignorable="d"
+    d:DesignWidth="10000">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}">
+        <Grid.Background>
+            <ImageBrush ImageSource="../Assets/background-image.png"></ImageBrush>
+        </Grid.Background>
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="8*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Image Stretch="None" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="120,0,0,0" Source="../Assets/logo-hub.png"></Image>
+            <local:UserHeaderControl HorizontalAlignment="Right" VerticalAlignment="Center" Margin="-250,0,0,0"></local:UserHeaderControl>
+        </Grid>
+        
+        <Grid Grid.Row="1">
+            <SemanticZoom x:Name="Semantic_Zoom">
+                <SemanticZoom.ZoomedInView>
+                            <GridView 
+                                 ItemContainerStyle="{StaticResource GridViewItemStyle1}"
+                                 SelectionMode="None"
+                                 IsSwipeEnabled="false">
+                        <GridViewItem>
+                            <StackPanel>
+                                <Border Background="#056E88" Width="506" Height="520" Margin="120,0,100,0" VerticalAlignment="Top" Padding="20" HorizontalAlignment="Left">
+                                    <local:FindSchoolsControl ErrorPopupCollapsedEvent="FindSchoolsControl_ErrorPopupCollapsedEvent" ErrorPopupVisibilityEvent="FindSchoolsControl_ErrorPopupVisibilityEvent" Grid.Row="1"></local:FindSchoolsControl>
+                                </Border>
+                                <local:ErrorLocationPopUpUserControl EventForClosePopUp="errorLocationPopUpUserControl_EventForClosePopUp" Margin="20,0,0,0" x:Name="errorLocationPopUpUserControl" Visibility="Collapsed" VerticalAlignment="Bottom" HorizontalAlignment="Left"></local:ErrorLocationPopUpUserControl>
+                            </StackPanel>
+                        </GridViewItem>
+                            <local:FeaturedSchoolsControlxaml></local:FeaturedSchoolsControlxaml>
+
+
+                        <GridViewItem>
+                            <Grid >
+                                <Button Style="{StaticResource TextPrimaryButtonStyle}" Margin="0,-90,0,350"
+                                                        Click="schoolComparisonsButton_Click">
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="SCHOOL COMPARISONS" Margin="3,-6,10,10"  FontSize="20" FontWeight="Bold" FontFamily="Open sans" Style="{StaticResource GroupHeaderTextStyle}" />
+                                        <TextBlock Text="{StaticResource ChevronGlyph}" FontFamily="Segoe UI Symbol" Margin="0,-7,0,10" Style="{StaticResource GroupHeaderTextStyle}"/>
+                                    </StackPanel>
+                                </Button>
+                                <ProgressRing Visibility="{Binding ProgressBarVisibilityForComparision,Mode=TwoWay,Converter={StaticResource booleanToVisibilityConverter}}" Name="progressBar" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="0,20,0,10" Foreground="Yellow" Width="60" Height="60" IsActive="{Binding ProgressBarVisibility,Mode=TwoWay}" />
+                                <GridView
+                        Visibility="{Binding GridViewVisibilityForComparision,Mode=TwoWay,Converter={StaticResource booleanToVisibilityConverter}}"
+                            x:Name="popularComparisonsGridView"
+                            Margin="20,40,20,20"
+                          ItemsSource="{Binding PopularSchoolComparisons}"
+                            ItemTemplate="{StaticResource PopularComparisonsItemTemplate }"
+                            IsItemClickEnabled="True"
+                             SelectionMode="None"
+                            ItemClick="popularComparisonsGridView_ItemClick"
+                            >
+                                    <GridView.ItemContainerStyle>
+                                        <Style TargetType="GridViewItem">
+                                            <Setter Property="Padding" Value="-2"></Setter>
+                                            <Setter Property="Margin" Value="-2"></Setter>
+                                        </Style>
+                                    </GridView.ItemContainerStyle>
+                                </GridView>
+                            </Grid>
+
+                        </GridViewItem>
+
+                        <!--<GridViewItem>-->
+                            <local:SurveyPageForHubControl></local:SurveyPageForHubControl>
+                        <!--</GridViewItem>-->
+
+                        <GridViewItem>
+                            <local:NewsArticlesControl ></local:NewsArticlesControl>
+                        </GridViewItem>
+
+                        <GridViewItem x:Name="bookmarkedControl">
+                                <local:BookmarkedControl></local:BookmarkedControl>
+                        </GridViewItem>
+
+                    </GridView>
+                        
+                    
+                </SemanticZoom.ZoomedInView>
+
+           
+                
+            <SemanticZoom.ZoomedOutView>
+                    <GridView VerticalAlignment="Center" HorizontalAlignment="Center" ItemContainerStyle="{StaticResource GridViewItemStyle1}">
+
+                        <GridViewItem Margin="30,10,10,10">
+                            <Grid Height="400" Width="200">
+                                <Button Command="{Binding SearchCommand}" Style="{StaticResource TextPrimaryButtonStyle}" HorizontalAlignment="Center">
+                                    Find Schools</Button>
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="../Assets/symantec-zoom-bg.png"/>
+                                </Grid.Background>
+                            </Grid>
+                        </GridViewItem>
+
+
+                        <!--<GridViewItem>
+                            <Grid Height="400" Width="200">
+                                <Button Command="{Binding GoSurveyPage}" HorizontalAlignment="Center">
+                                    Featured Schools</Button>
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="../Assets/symantec-zoom-bg.png"/>
+                                </Grid.Background>
+                            </Grid>
+                        </GridViewItem>-->
+
+                        <GridViewItem Margin="10">
+                            <Grid Height="400" Width="200">
+                                <Button Click="schoolComparisonsButton_Click" HorizontalAlignment="Center" Style="{StaticResource TextPrimaryButtonStyle}">
+                                  School Comparisions</Button>
+                                <Grid.Background>
+                                <ImageBrush ImageSource="../Assets/symantec-zoom-bg.png"/>
+                                </Grid.Background>
+                            </Grid>
+                        </GridViewItem>
+
+                        <GridViewItem Margin="10">
+                            <Grid Height="400" Width="200">
+                                <Button Command="{Binding GoSurveyPage}" HorizontalAlignment="Center" Style="{StaticResource TextPrimaryButtonStyle}">
+                                    Surveys</Button>
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="../Assets/symantec-zoom-bg.png"/>
+                                </Grid.Background>
+                            </Grid>
+                        </GridViewItem>
+
+                        <GridViewItem Margin="10">
+                            <Grid Height="400" Width="200">
+                                <Button  Command="{Binding GoNewsArticlesItemsPage}" HorizontalAlignment="Center" Style="{StaticResource TextPrimaryButtonStyle}">
+                                    News Articles</Button>
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="../Assets/symantec-zoom-bg.png"/>
+                                </Grid.Background>
+                            </Grid>
+                        </GridViewItem>
+
+                        <GridViewItem Margin="10">
+                            <Grid Height="400" Width="200">
+                                <Button Command="{Binding GoBookmarkedSchoolItemsPage}" HorizontalAlignment="Center" Style="{StaticResource TextPrimaryButtonStyle}">
+                                    Book marked Schools</Button>
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="../Assets/symantec-zoom-bg.png"/>
+                                </Grid.Background>
+                            </Grid>
+                        </GridViewItem>
+                            <GridView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <VariableSizedWrapGrid Orientation="Vertical" MaximumRowsOrColumns="1"></VariableSizedWrapGrid>
+                                </ItemsPanelTemplate>
+                            </GridView.ItemsPanel>
+
+                        </GridView>
+                </SemanticZoom.ZoomedOutView>
+
+            </SemanticZoom>
+        </Grid>
+      
+    </Grid>
+</views:BaseView>
+
+
+
+
+<!-- Back button and page title -->
+<!--<Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}"
+                    Style="{StaticResource BackButtonStyle}" />
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}"
+                       Style="{StaticResource PageHeaderTextStyle}" />
+        </Grid>-->
+                

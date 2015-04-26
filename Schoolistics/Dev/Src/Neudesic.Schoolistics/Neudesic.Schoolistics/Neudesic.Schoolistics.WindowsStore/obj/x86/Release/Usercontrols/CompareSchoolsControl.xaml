@@ -1,0 +1,48 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.CompareSchoolsControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"    
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    >
+
+    <Grid Background="#D54b1A" Width="400">
+
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Add school to compare" Foreground="White" FontSize="30" Margin="20,20,0,10" ></TextBlock>
+            <TextBox x:ConnectionId='1' x:Name="tbsearchBox" Width="350" Height="30"                                                                                                                             Margin="20,10,0,10" IsTextPredictionEnabled="True"
+                      HorizontalAlignment="Left"
+                     Text="Search for school"></TextBox>
+            <Grid Height="770">
+                <ListView x:Name="addSchoolListView"
+                    Margin="20"   
+                         
+            ItemsSource="{Binding SchoolDetails, Mode=TwoWay}"
+            ItemTemplate="{StaticResource SchoolsListItemTemplate}"
+            SelectionMode="Multiple"
+            IsSwipeEnabled="false" Style="{StaticResource SchoolsListTemplate}" ItemContainerStyle="{StaticResource SchoolsListItemContainerStyleTemplate}"
+           
+           
+            
+                            >
+
+                </ListView>
+                <StackPanel Orientation="Vertical" VerticalAlignment="Bottom" Height="80" Width="400" >
+                    <Image Source="ms-appx:///Assets/shadow.png" Opacity=".5" ></Image>
+                    <Border Padding="10">
+                <StackPanel Orientation="Horizontal">
+                    
+                    
+                    <Button x:ConnectionId='2' Width="120" Height="45" Margin="60,0,0,0" Content="Ok" FontSize="14" Background="#FFCC00"                                  ></Button>
+                    <Button x:ConnectionId='3' Width="120" Height="45" Margin="30,0,0,0" Content="Cancel"                             FontSize="14" Background="#FFB6ADAD" />
+                </StackPanel>
+                    </Border>
+                </StackPanel>
+
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>
+

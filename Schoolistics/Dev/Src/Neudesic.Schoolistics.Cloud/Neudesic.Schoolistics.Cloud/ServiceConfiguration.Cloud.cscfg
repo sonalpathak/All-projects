@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="Neudesic.Schoolistics.Cloud" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2013-10.2.2">
+  <Role name="Neudesic.Schoolistics.WebRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=schoolistics;AccountKey=2oz/un3THCm8OyPLbImIno9B6HqFq68L7nqu+m0GhXu+xRHBmhP/GdpPqjdZLRNDPON6KEHmsI0uWr16JjGwIA==" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=schoolistics;AccountKey=2oz/un3THCm8OyPLbImIno9B6HqFq68L7nqu+m0GhXu+xRHBmhP/GdpPqjdZLRNDPON6KEHmsI0uWr16JjGwIA==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="schoolistics" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBpQYJKoZIhvcNAQcDoIIBljCCAZICAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCECH3dXjKJfO2TkN5oe1fLKYwDQYJKoZIhvcNAQEBBQAEggEAZTeX1CQ22dIPv3Z7DG65Rq2cPlgNggBkNsDGzFvNRPj3oCjxgPNLGjOFv50zaWRyoLioHPozNRh9pMo+culoTD3PRu4ELNC4OGP6PXiPQlywg0HITtoyBNhHHcRuhycYAORc740ktEVn3Q7WG+UCPc/F660S3cFvL63PsaHDC2QkwobJqb0rDYlpy23I1BrGPFCXKOCjPR98Q8q1ebSi4RbA4ZzcjZagyIN0r6zScDse+d24+ngeITJ29mqS2uQepaeiLMu2SgP5FjWiezS8HQNAS2eQAeYMgORVBoFXUcBzmQVzkmjaeagz1/IAPJ5q8XPrKK6+9V2XAQvgKuI1dTA7BgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECFkg+onYDY5fgBhHG4bczosGT8LzC0jq1IhwmpI8hiCEu6g=" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2017-08-05T23:59:59.0000000+05:30" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="8F0BA89D12C147E39D01945FC497DA0317FCD612" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

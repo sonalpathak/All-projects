@@ -1,0 +1,41 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.SearchResultsGridViewControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Auto" HorizontalScrollMode="Enabled" VerticalScrollMode="Disabled">
+        <StackPanel>
+                <TextBlock Text="{Binding SearchResultsCount,Mode=TwoWay}" FontSize="20" Margin="0,0,0,10"></TextBlock>
+            <GridView x:ConnectionId='1'
+                Margin="0,0,0,30"
+                x:Name="itemGridView"
+                AutomationProperties.AutomationId="ItemsGridView"
+                AutomationProperties.Name="Items"
+                TabIndex="1"
+                Grid.Row="1"
+                Grid.Column="1"
+                ItemsSource="{Binding SchoolDetails,Mode=TwoWay}"
+                ItemTemplate="{StaticResource SampleSearchResultsGridView }"
+                SelectionMode="Single"
+                                                                
+                IsSwipeEnabled="false"
+                IsItemClickEnabled="True"
+                                                  
+                ItemContainerStyle="{StaticResource SearchResultsGridViewItemContainerStyle}">
+                
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <VariableSizedWrapGrid MaximumRowsOrColumns="2" Orientation="Vertical"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </GridView>
+        </StackPanel>
+        </ScrollViewer>
+    </Grid>
+
+</UserControl>
+

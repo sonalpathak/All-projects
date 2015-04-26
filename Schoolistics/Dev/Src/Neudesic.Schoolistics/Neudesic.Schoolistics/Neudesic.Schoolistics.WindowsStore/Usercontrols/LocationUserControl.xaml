@@ -1,0 +1,68 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.LocationUserControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:bm="using:Bing.Maps"
+    >
+    <UserControl.Resources>
+        <Style x:Key="PushPinStyle" TargetType="bm:Pushpin">
+            <Setter Property="Width" Value="55"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Image Source="../Assets/map-marker.png" HorizontalAlignment="Left"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <!--<Style x:Key="ToolTipStyle">
+            <Setter Property="Width" Value="155" />
+            <Setter Property="Height" Value="135"/>
+           
+                <Setter.Value>
+                    <ControlTemplate>
+                        <local:LocationPopupUserControl></local:LocationPopupUserControl>
+                        
+                    </ControlTemplate>
+                </Setter.Value>
+         
+        </Style>-->
+   
+    
+    
+    <Grid>
+        <bm:Map Credentials="Ap1ICi3g-C069WMp_6XSeLSR-jHWpL6-9tZhuZlB8vrJ3Rs_IYAdHdoNsbsRzLJZ" Margin="13,0,0,0" HorizontalAlignment="Left" x:Name="myMap" MapType="Road" ZoomLevel="3" Height="586" Width="1030">
+            <bm:Map.Center>
+                <bm:Location Latitude="{Binding Latitude_schooldetails,Mode=TwoWay}" Longitude="{Binding Longitude_schooldetails,Mode=TwoWay}" />
+            </bm:Map.Center>
+            <bm:Map.Children>
+                <bm:Pushpin>
+                    <bm:MapLayer.Position>
+                        <bm:Location Latitude="0" Longitude="0" />
+                    </bm:MapLayer.Position>
+                </bm:Pushpin>
+            </bm:Map.Children>
+        </bm:Map>
+        <!--<bm:Map Credentials="Ap1ICi3g-C069WMp_6XSeLSR-jHWpL6-9tZhuZlB8vrJ3Rs_IYAdHdoNsbsRzLJZ" Margin="13,0,0,0" HorizontalAlignment="Left" x:Name="myMap" MapType="Road" ZoomLevel="4" Height="480" Width="644" >
+            <bm:Map.Center>
+                <bm:Location Latitude="{Binding Latitude_schooldetails,Mode=TwoWay}" Longitude="{Binding Longitude_schooldetails,Mode=TwoWay}" />
+            </bm:Map.Center>
+            <ToolTipService.ToolTip>
+                <ToolTip>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="{Binding Latitude_schooldetails}" />
+                        <TextBlock Text="{Binding Longitude_schooldetails}" TextWrapping="Wrap" />
+                    </StackPanel>
+                </ToolTip>
+            </ToolTipService.ToolTip>
+        </bm:Map>-->
+
+    </Grid>
+</UserControl>

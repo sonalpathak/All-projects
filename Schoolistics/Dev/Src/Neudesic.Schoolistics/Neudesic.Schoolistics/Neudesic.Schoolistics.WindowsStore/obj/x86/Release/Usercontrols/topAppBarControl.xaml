@@ -1,0 +1,60 @@
+﻿<UserControl
+    x:Class="Neudesic.Schoolistics.WindowsStore.Usercontrols.topAppBarControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Neudesic.Schoolistics.WindowsStore.Usercontrols"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <Grid Height="140" Background="#d54b1a" Margin="-10,-10,-10,-10">
+             <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='1' x:Name="Homebutton"                          Height="120" Width="140" Margin="10,10,10,10" BorderBrush="#e65b1e" >
+                        <StackPanel Margin="10,20,0,10">
+                            <Image Source="../Assets/Home.png" Stretch="None" Height="44" RenderTransformOrigin="0.516,0.261"></Image>
+                            <TextBlock Text="Home" Margin="10,5,5,0"></TextBlock>
+                        </StackPanel>
+                        <!--<Button.Background>
+                        <ImageBrush  ImageSource="Assets/Home.png" Stretch="None" />
+                    </Button.Background>
+                    <TextBlock Text="Home"  Margin="10,70,5,0"></TextBlock>-->
+                    </Button>
+                    <Button x:ConnectionId='2' x:Name="Comparebutton"                             Height="120" Width="140" Margin="10,10,10,10" BorderBrush="#e65b1e">
+                        <StackPanel Margin="10,20,0,10">
+                            <Image Source="../Assets/Scale.png" Stretch="None" Height="44" RenderTransformOrigin="0.516,0.261"></Image>
+                            <TextBlock Text="Comparison" Margin="10,5,5,0"></TextBlock>
+                        </StackPanel>
+                    </Button>
+                    <Button x:ConnectionId='3' x:Name="Surveybutton"                            Height="120" Width="140" Margin="10,10,10,10" BorderBrush="#e65b1e">
+                        <StackPanel Margin="10,20,0,10">
+                            <Image Source="../Assets/Pie-Chart.png" Stretch="None"></Image>
+                            <TextBlock Text="Surveys"   Margin="10,5,5,0"></TextBlock>
+
+                        </StackPanel>
+
+
+                    </Button>
+                    <Button x:Name="Bookmarkbutton" Height="120" Width="140" Margin="10,10,10,10" BorderBrush="#e65b1e">
+                        <StackPanel Margin="10,20,0,10">
+                            <Image Source="../Assets/Bookmark-New.png" Stretch="None"></Image>
+                            <TextBlock Text="Bookmarks"   Margin="10,5,5,0"></TextBlock>
+
+                        </StackPanel>
+                        <!--<Button.Background>
+                        <ImageBrush ImageSource="Assets/Bookmark-New.png" Stretch="None"/>
+                    </Button.Background>-->
+                        <!--<TextBlock Text="Bookmarks"   Margin="10,70,5,0"></TextBlock>-->
+                    </Button>
+                    <Button x:ConnectionId='4' x:Name="NewsarticleButton"                                 Height="120" Width="140" Margin="10,10,10,10" BorderBrush="#e65b1e">
+                        <StackPanel Margin="10,20,0,10">
+                            <Image Source="../Assets/News.png" Stretch="None" Height="44" RenderTransformOrigin="0.516,0.261"></Image>
+                            <TextBlock Text="News" Margin="10,5,5,0"></TextBlock>
+                        </StackPanel>
+                    </Button>
+
+                </StackPanel>
+      </Grid>
+</UserControl>
+

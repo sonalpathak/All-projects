@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+ 	     android:id="@+id/coinMenuItem"
+ 	     android:title="0" 	     
+ 	     android:showAsAction="always|withText"
+       
+ 	/>
+  <item
+ 	     android:id="@+id/homeMenuItem"
+ 	     android:title="Home" 	     
+ 	     android:showAsAction="always"       
+ 	/>
+</menu>
+
+<!--android:icon="@drawable/coin"-->
